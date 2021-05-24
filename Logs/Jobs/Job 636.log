@@ -1,0 +1,31 @@
+2020-11-19 14:24:09,844 INFO     Job started for command "import" with arguments:
+2020-11-19 14:24:09,845 INFO         {
+2020-11-19 14:24:09,845 INFO             "importer": {
+2020-11-19 14:24:09,846 INFO                 "name": "Recording Importer",
+2020-11-19 14:24:09,846 INFO                 "arguments": {
+2020-11-19 14:24:09,846 INFO                     "paths": [
+2020-11-19 14:24:09,848 INFO                         "/Volumes/Erebus/msgr-vesper-archive/Recordings"
+2020-11-19 14:24:09,849 INFO                     ],
+2020-11-19 14:24:09,851 INFO                     "recursive": false,
+2020-11-19 14:24:09,853 INFO                     "recording_file_parser": {
+2020-11-19 14:24:09,853 INFO                         "name": "MPG Ranch Recording File Parser",
+2020-11-19 14:24:09,854 INFO                         "arguments": {
+2020-11-19 14:24:09,855 INFO                             "station_name_aliases_preset": "Station Name Aliases"
+2020-11-19 14:24:09,855 INFO                         }
+2020-11-19 14:24:09,855 INFO                     }
+2020-11-19 14:24:09,855 INFO                 }
+2020-11-19 14:24:09,855 INFO             }
+2020-11-19 14:24:09,856 INFO         }
+2020-11-19 14:24:12,074 INFO     Found 5 new recordings and 184 old recordings at the specified paths.
+2020-11-19 14:24:12,074 INFO     The new recordings will be imported.
+2020-11-19 14:24:12,096 INFO     Imported recording MSGR / PC / start 2020-11-14 23:04:00+00:00 / duration 11.017 h with files:
+2020-11-19 14:24:12,096 INFO         MSGR_2020-11-14_23.04.00_Z.wav
+2020-11-19 14:24:12,097 INFO     Imported recording MSGR / PC / start 2020-11-15 23:04:00+00:00 / duration 11.017 h with files:
+2020-11-19 14:24:12,097 INFO         MSGR_2020-11-15_23.04.00_Z.wav
+2020-11-19 14:24:12,097 INFO     Imported recording MSGR / PC / start 2020-11-16 23:04:00+00:00 / duration 11.017 h with files:
+2020-11-19 14:24:12,098 INFO         MSGR_2020-11-16_23.04.00_Z.wav
+2020-11-19 14:24:12,099 INFO     Imported recording MSGR / PC / start 2020-11-17 23:04:00+00:00 / duration 11.017 h with files:
+2020-11-19 14:24:12,100 INFO         MSGR_2020-11-17_23.04.00_Z.wav
+2020-11-19 14:24:12,100 INFO     Imported recording MSGR / PC / start 2020-11-18 23:04:00+00:00 / duration 11.017 h with files:
+2020-11-19 14:24:12,101 INFO         MSGR_2020-11-18_23.04.00_Z.wav
+2020-11-19 14:24:12,114 INFO     Job completed.

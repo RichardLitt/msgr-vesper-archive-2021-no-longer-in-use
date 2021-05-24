@@ -1,0 +1,26 @@
+2020-09-14 20:40:48,381 INFO     Job started for command "export" with arguments:
+2020-09-14 20:40:48,382 INFO         {
+2020-09-14 20:40:48,382 INFO             "exporter": {
+2020-09-14 20:40:48,384 INFO                 "name": "Clip Audio Files Exporter",
+2020-09-14 20:40:48,384 INFO                 "arguments": {
+2020-09-14 20:40:48,384 INFO                     "output_dir_path": "wiwa",
+2020-09-14 20:40:48,385 INFO                     "clip_file_name_formatter": {
+2020-09-14 20:40:48,385 INFO                         "name": "Simple Clip File Name Formatter"
+2020-09-14 20:40:48,385 INFO                     }
+2020-09-14 20:40:48,386 INFO                 }
+2020-09-14 20:40:48,387 INFO             },
+2020-09-14 20:40:48,388 INFO             "detectors": [
+2020-09-14 20:40:48,389 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-09-14 20:40:48,389 INFO             ],
+2020-09-14 20:40:48,391 INFO             "station_mics": [
+2020-09-14 20:40:48,391 INFO                 "MSGR / 21c"
+2020-09-14 20:40:48,392 INFO             ],
+2020-09-14 20:40:48,393 INFO             "classification": "Call.WIWA",
+2020-09-14 20:40:48,394 INFO             "start_date": "2020-09-03",
+2020-09-14 20:40:48,395 INFO             "end_date": "2020-09-04"
+2020-09-14 20:40:48,396 INFO         }
+2020-09-14 20:40:48,486 INFO     Exporter will visit 2 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-03.
+2020-09-14 20:40:48,549 INFO     Exported 2 of 2 visited clips.
+2020-09-14 20:40:48,567 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-04.
+2020-09-14 20:40:48,630 INFO     Exported 0 of 0 visited clips.
+2020-09-14 20:40:48,654 INFO     Job completed.

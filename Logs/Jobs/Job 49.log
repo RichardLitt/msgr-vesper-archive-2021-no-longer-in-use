@@ -1,0 +1,15 @@
+2020-03-12 09:07:32,424 INFO     Job started for command "detect" with arguments:
+2020-03-12 09:07:32,425 INFO         {
+2020-03-12 09:07:32,426 INFO             "detectors": [
+2020-03-12 09:07:32,426 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-03-12 09:07:32,426 INFO             ],
+2020-03-12 09:07:32,426 INFO             "stations": [
+2020-03-12 09:07:32,426 INFO                 "MSGR"
+2020-03-12 09:07:32,426 INFO             ],
+2020-03-12 09:07:32,426 INFO             "start_date": "2020-03-12",
+2020-03-12 09:07:32,427 INFO             "end_date": "2020-03-30",
+2020-03-12 09:07:32,427 INFO             "schedule": "",
+2020-03-12 09:07:32,427 INFO             "defer_clip_creation": false
+2020-03-12 09:07:32,427 INFO         }
+2020-03-12 09:07:32,433 INFO     This command will process recordings for 0 station-nights.
+2020-03-12 09:07:32,439 INFO     Job complete.

@@ -1,0 +1,53 @@
+2020-03-27 16:27:35,233 INFO     Job started for command "classify" with arguments:
+2020-03-27 16:27:35,234 INFO         {
+2020-03-27 16:27:35,234 INFO             "classifier": "MPG Ranch NFC Coarse Classifier 3.0",
+2020-03-27 16:27:35,235 INFO             "annotation_name": "Classification",
+2020-03-27 16:27:35,235 INFO             "detectors": [
+2020-03-27 16:27:35,235 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-03-27 16:27:35,236 INFO             ],
+2020-03-27 16:27:35,236 INFO             "station_mics": [
+2020-03-27 16:27:35,236 INFO                 "MSGR / 21c"
+2020-03-27 16:27:35,236 INFO             ],
+2020-03-27 16:27:35,236 INFO             "start_date": "2020-03-26",
+2020-03-27 16:27:35,236 INFO             "end_date": "2020-03-30"
+2020-03-27 16:27:35,236 INFO         }
+2020-03-27 16:27:35,247 INFO     Creating TensorFlow estimator from saved model in directory "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Tseep Classifier/TensorFlow SavedModel"...
+2020-03-27 16:27:35,249 WARNING  
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+2020-03-27 16:27:35,849 WARNING  Using temporary folder as model directory: /var/folders/2z/dlxt5tt50nzdlqlx1qvr1zdm0000gn/T/tmpfw1fee4d
+2020-03-27 16:27:35,853 WARNING  train mode not found in SavedModel.
+2020-03-27 16:27:35,853 WARNING  eval mode not found in SavedModel.
+2020-03-27 16:27:35,854 INFO     Loading classifier settings from "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Tseep Classifier/Settings.yaml"...
+2020-03-27 16:27:36,102 INFO     Creating TensorFlow estimator from saved model in directory "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Thrush Classifier/TensorFlow SavedModel"...
+2020-03-27 16:27:36,104 WARNING  Using temporary folder as model directory: /var/folders/2z/dlxt5tt50nzdlqlx1qvr1zdm0000gn/T/tmp3gc60f2x
+2020-03-27 16:27:36,106 WARNING  train mode not found in SavedModel.
+2020-03-27 16:27:36,106 WARNING  eval mode not found in SavedModel.
+2020-03-27 16:27:36,107 INFO     Loading classifier settings from "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Thrush Classifier/Settings.yaml"...
+2020-03-27 16:27:36,130 INFO     Classifier will visit 3009 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-26.
+2020-03-27 16:28:09,543 WARNING  From //anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.real is deprecated. Please use tf.math.real instead.
+
+2020-03-27 16:28:09,543 WARNING  From //anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.conj is deprecated. Please use tf.math.conj instead.
+
+2020-03-27 16:28:09,544 WARNING  From //anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.log is deprecated. Please use tf.math.log instead.
+
+2020-03-27 16:28:09,802 WARNING  From //anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.Dimension is deprecated. Please use tf.compat.v1.Dimension instead.
+
+2020-03-27 16:28:10,209 WARNING  From //anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py:1475: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-03-27 16:28:42,055 INFO     Classified 3009 of 3009 visited clips in 65.9 seconds, an average of 45.7 clips per second.
+2020-03-27 16:28:42,071 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-27.
+2020-03-27 16:28:42,073 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-27 16:28:42,075 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-28.
+2020-03-27 16:28:42,076 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-27 16:28:42,077 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-29.
+2020-03-27 16:28:42,079 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-27 16:28:42,081 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-30.
+2020-03-27 16:28:42,082 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-27 16:28:42,091 INFO     Job completed.

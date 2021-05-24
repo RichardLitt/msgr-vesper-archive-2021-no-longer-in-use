@@ -1,0 +1,16 @@
+2020-08-14 09:29:38,778 INFO     Job started for command "create_clip_audio_files" with arguments:
+2020-08-14 09:29:38,779 INFO         {
+2020-08-14 09:29:38,780 INFO             "detectors": [
+2020-08-14 09:29:38,780 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-08-14 09:29:38,781 INFO             ],
+2020-08-14 09:29:38,781 INFO             "station_mics": [
+2020-08-14 09:29:38,781 INFO                 "MSGR / 21c"
+2020-08-14 09:29:38,781 INFO             ],
+2020-08-14 09:29:38,781 INFO             "classification": "Call*",
+2020-08-14 09:29:38,781 INFO             "start_date": "2020-08-13",
+2020-08-14 09:29:38,781 INFO             "end_date": "2020-08-14"
+2020-08-14 09:29:38,781 INFO         }
+2020-08-14 09:29:39,602 INFO     Created audio files for 147 of 147 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-13.
+2020-08-14 09:29:39,606 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-14.
+2020-08-14 09:29:39,606 INFO     Processed a total of 147 clips in 0.8 seconds, an average of 183.8 clips per second.
+2020-08-14 09:29:39,617 INFO     Job completed.

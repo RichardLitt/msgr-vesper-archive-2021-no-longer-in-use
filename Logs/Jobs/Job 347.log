@@ -1,0 +1,290 @@
+2020-08-21 21:03:49,641 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/dataset_utils.py:25: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+2020-08-21 21:03:50,134 INFO     Job started for command "export" with arguments:
+2020-08-21 21:03:50,134 INFO         {
+2020-08-21 21:03:50,134 INFO             "exporter": {
+2020-08-21 21:03:50,134 INFO                 "name": "Clip Audio Files Exporter",
+2020-08-21 21:03:50,134 INFO                 "arguments": {
+2020-08-21 21:03:50,134 INFO                     "output_dir_path": "Clips",
+2020-08-21 21:03:50,134 INFO                     "clip_file_name_formatter": {
+2020-08-21 21:03:50,134 INFO                         "name": "Simple Clip File Name Formatter"
+2020-08-21 21:03:50,134 INFO                     }
+2020-08-21 21:03:50,134 INFO                 }
+2020-08-21 21:03:50,134 INFO             },
+2020-08-21 21:03:50,134 INFO             "detectors": [
+2020-08-21 21:03:50,134 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-08-21 21:03:50,134 INFO             ],
+2020-08-21 21:03:50,134 INFO             "station_mics": [
+2020-08-21 21:03:50,134 INFO                 "MSGR / 21c"
+2020-08-21 21:03:50,134 INFO             ],
+2020-08-21 21:03:50,134 INFO             "classification": "Call.*",
+2020-08-21 21:03:50,134 INFO             "start_date": "2020-08-20",
+2020-08-21 21:03:50,135 INFO             "end_date": "2020-12-30"
+2020-08-21 21:03:50,135 INFO         }
+2020-08-21 21:03:50,164 INFO     Exporter will visit 12 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-20.
+2020-08-21 21:03:50,348 INFO     Exported 12 of 12 visited clips.
+2020-08-21 21:03:50,352 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-21.
+2020-08-21 21:03:50,354 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,359 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-22.
+2020-08-21 21:03:50,361 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,369 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-23.
+2020-08-21 21:03:50,370 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,377 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-24.
+2020-08-21 21:03:50,379 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,383 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-25.
+2020-08-21 21:03:50,385 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,390 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-26.
+2020-08-21 21:03:50,393 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,396 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-27.
+2020-08-21 21:03:50,398 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,402 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-28.
+2020-08-21 21:03:50,403 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,407 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-29.
+2020-08-21 21:03:50,409 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,413 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-30.
+2020-08-21 21:03:50,414 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,418 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-31.
+2020-08-21 21:03:50,419 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,423 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-01.
+2020-08-21 21:03:50,426 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,430 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-02.
+2020-08-21 21:03:50,431 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,435 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-03.
+2020-08-21 21:03:50,437 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,440 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-04.
+2020-08-21 21:03:50,442 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,445 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-05.
+2020-08-21 21:03:50,447 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,451 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-06.
+2020-08-21 21:03:50,452 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,455 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-07.
+2020-08-21 21:03:50,458 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,462 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-08.
+2020-08-21 21:03:50,464 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,470 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-09.
+2020-08-21 21:03:50,474 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,480 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-10.
+2020-08-21 21:03:50,482 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,488 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-11.
+2020-08-21 21:03:50,490 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,494 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-12.
+2020-08-21 21:03:50,496 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,499 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-13.
+2020-08-21 21:03:50,501 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,504 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-14.
+2020-08-21 21:03:50,505 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,510 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-15.
+2020-08-21 21:03:50,511 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,514 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-16.
+2020-08-21 21:03:50,515 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,520 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-17.
+2020-08-21 21:03:50,521 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,525 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-18.
+2020-08-21 21:03:50,527 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,531 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-19.
+2020-08-21 21:03:50,532 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,536 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-20.
+2020-08-21 21:03:50,538 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,541 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-21.
+2020-08-21 21:03:50,544 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,548 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-22.
+2020-08-21 21:03:50,550 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,553 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-23.
+2020-08-21 21:03:50,555 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,559 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-24.
+2020-08-21 21:03:50,561 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,565 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-25.
+2020-08-21 21:03:50,566 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,570 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-26.
+2020-08-21 21:03:50,571 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,575 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-27.
+2020-08-21 21:03:50,577 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,580 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-28.
+2020-08-21 21:03:50,581 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,585 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-29.
+2020-08-21 21:03:50,586 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,590 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-30.
+2020-08-21 21:03:50,592 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,597 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-01.
+2020-08-21 21:03:50,599 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,602 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-02.
+2020-08-21 21:03:50,603 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,608 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-03.
+2020-08-21 21:03:50,609 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,614 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-04.
+2020-08-21 21:03:50,615 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,619 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-05.
+2020-08-21 21:03:50,620 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,624 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-06.
+2020-08-21 21:03:50,626 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,630 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-07.
+2020-08-21 21:03:50,632 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,635 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-08.
+2020-08-21 21:03:50,637 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,640 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-09.
+2020-08-21 21:03:50,643 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,647 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-10.
+2020-08-21 21:03:50,648 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,651 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-11.
+2020-08-21 21:03:50,653 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,656 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-12.
+2020-08-21 21:03:50,657 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,662 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-13.
+2020-08-21 21:03:50,663 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,668 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-14.
+2020-08-21 21:03:50,670 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,673 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-15.
+2020-08-21 21:03:50,675 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,679 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-16.
+2020-08-21 21:03:50,680 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,683 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-17.
+2020-08-21 21:03:50,685 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,688 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-18.
+2020-08-21 21:03:50,689 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,692 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-19.
+2020-08-21 21:03:50,693 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,697 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-20.
+2020-08-21 21:03:50,698 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,701 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-21.
+2020-08-21 21:03:50,702 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,707 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-22.
+2020-08-21 21:03:50,709 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,712 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-23.
+2020-08-21 21:03:50,713 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,717 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-24.
+2020-08-21 21:03:50,718 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,722 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-25.
+2020-08-21 21:03:50,723 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,727 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-26.
+2020-08-21 21:03:50,729 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,732 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-27.
+2020-08-21 21:03:50,733 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,736 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-28.
+2020-08-21 21:03:50,738 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,741 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-29.
+2020-08-21 21:03:50,742 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,745 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-30.
+2020-08-21 21:03:50,746 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,750 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-31.
+2020-08-21 21:03:50,751 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,754 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-01.
+2020-08-21 21:03:50,756 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,760 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-02.
+2020-08-21 21:03:50,761 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,764 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-03.
+2020-08-21 21:03:50,765 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,769 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-04.
+2020-08-21 21:03:50,770 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,773 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-05.
+2020-08-21 21:03:50,775 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,777 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-06.
+2020-08-21 21:03:50,779 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,782 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-07.
+2020-08-21 21:03:50,784 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,787 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-08.
+2020-08-21 21:03:50,789 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,792 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-09.
+2020-08-21 21:03:50,794 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,797 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-10.
+2020-08-21 21:03:50,798 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,801 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-11.
+2020-08-21 21:03:50,803 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,806 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-12.
+2020-08-21 21:03:50,809 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,813 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-13.
+2020-08-21 21:03:50,814 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,819 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-14.
+2020-08-21 21:03:50,820 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,823 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-15.
+2020-08-21 21:03:50,825 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,828 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-16.
+2020-08-21 21:03:50,830 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,833 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-17.
+2020-08-21 21:03:50,834 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,838 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-18.
+2020-08-21 21:03:50,839 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,843 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-19.
+2020-08-21 21:03:50,845 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,848 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-20.
+2020-08-21 21:03:50,850 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,853 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-21.
+2020-08-21 21:03:50,855 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,858 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-22.
+2020-08-21 21:03:50,859 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,863 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-23.
+2020-08-21 21:03:50,864 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,867 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-24.
+2020-08-21 21:03:50,869 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,872 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-25.
+2020-08-21 21:03:50,873 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,877 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-26.
+2020-08-21 21:03:50,878 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,881 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-27.
+2020-08-21 21:03:50,882 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,886 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-28.
+2020-08-21 21:03:50,887 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,891 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-29.
+2020-08-21 21:03:50,893 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,897 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-30.
+2020-08-21 21:03:50,899 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,902 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-01.
+2020-08-21 21:03:50,903 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,907 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-02.
+2020-08-21 21:03:50,908 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,912 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-03.
+2020-08-21 21:03:50,913 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,917 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-04.
+2020-08-21 21:03:50,918 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,921 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-05.
+2020-08-21 21:03:50,923 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,927 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-06.
+2020-08-21 21:03:50,929 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,932 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-07.
+2020-08-21 21:03:50,934 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,937 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-08.
+2020-08-21 21:03:50,939 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,942 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-09.
+2020-08-21 21:03:50,943 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,946 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-10.
+2020-08-21 21:03:50,948 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,951 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-11.
+2020-08-21 21:03:50,953 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,956 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-12.
+2020-08-21 21:03:50,957 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,960 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-13.
+2020-08-21 21:03:50,961 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,965 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-14.
+2020-08-21 21:03:50,966 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,969 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-15.
+2020-08-21 21:03:50,971 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,975 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-16.
+2020-08-21 21:03:50,977 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,980 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-17.
+2020-08-21 21:03:50,981 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,984 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-18.
+2020-08-21 21:03:50,986 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,989 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-19.
+2020-08-21 21:03:50,990 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,994 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-20.
+2020-08-21 21:03:50,995 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:50,999 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-21.
+2020-08-21 21:03:51,000 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:51,004 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-22.
+2020-08-21 21:03:51,005 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:51,009 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-23.
+2020-08-21 21:03:51,010 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:51,013 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-24.
+2020-08-21 21:03:51,015 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:51,017 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-25.
+2020-08-21 21:03:51,019 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:51,022 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-26.
+2020-08-21 21:03:51,023 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:51,027 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-27.
+2020-08-21 21:03:51,029 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:51,031 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-28.
+2020-08-21 21:03:51,032 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:51,036 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-29.
+2020-08-21 21:03:51,037 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:51,041 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-30.
+2020-08-21 21:03:51,042 INFO     Exported 0 of 0 visited clips.
+2020-08-21 21:03:51,052 INFO     Job completed.

@@ -1,0 +1,25 @@
+2020-03-22 11:26:00,936 INFO     Job started for command "import" with arguments:
+2020-03-22 11:26:00,937 INFO         {
+2020-03-22 11:26:00,938 INFO             "importer": {
+2020-03-22 11:26:00,938 INFO                 "name": "Recording Importer",
+2020-03-22 11:26:00,939 INFO                 "arguments": {
+2020-03-22 11:26:00,939 INFO                     "paths": [
+2020-03-22 11:26:00,939 INFO                         "/Volumes/Erebus/msgr-vesper-archive/Recordings"
+2020-03-22 11:26:00,939 INFO                     ],
+2020-03-22 11:26:00,940 INFO                     "recursive": false,
+2020-03-22 11:26:00,940 INFO                     "recording_file_parser": {
+2020-03-22 11:26:00,940 INFO                         "name": "MPG Ranch Recording File Parser",
+2020-03-22 11:26:00,940 INFO                         "arguments": {
+2020-03-22 11:26:00,941 INFO                             "station_name_aliases_preset": "Station Name Aliases"
+2020-03-22 11:26:00,941 INFO                         }
+2020-03-22 11:26:00,942 INFO                     }
+2020-03-22 11:26:00,943 INFO                 }
+2020-03-22 11:26:00,943 INFO             }
+2020-03-22 11:26:00,943 INFO         }
+2020-03-22 11:26:01,304 INFO     Found 2 new recordings and 13 old recordings at the specified paths.
+2020-03-22 11:26:01,304 INFO     The new recordings will be imported.
+2020-03-22 11:26:01,311 INFO     Imported recording MSGR / PC / start 2020-03-22 01:00:28+00:00 / duration 14.293 h with files:
+2020-03-22 11:26:01,311 INFO         MSGR_2020-03-22_01.00.28_Z.wav
+2020-03-22 11:26:01,311 INFO     Imported recording MSGR / PC / start 2020-03-22 03:50:33+00:00 / duration 5.656 h with files:
+2020-03-22 11:26:01,311 INFO         MSGR_2020-03-22_03.50.33_Z.wav
+2020-03-22 11:26:01,316 INFO     Job complete.

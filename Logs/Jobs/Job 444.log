@@ -1,0 +1,36 @@
+2020-09-15 22:47:12,299 INFO     Job started for command "classify" with arguments:
+2020-09-15 22:47:12,300 INFO         {
+2020-09-15 22:47:12,300 INFO             "classifier": "MPG Ranch NFC Coarse Classifier 3.0",
+2020-09-15 22:47:12,302 INFO             "annotation_name": "Classification",
+2020-09-15 22:47:12,303 INFO             "detectors": [
+2020-09-15 22:47:12,305 INFO                 "Old Bird Thrush Detector Redux 1.1"
+2020-09-15 22:47:12,309 INFO             ],
+2020-09-15 22:47:12,310 INFO             "station_mics": [
+2020-09-15 22:47:12,312 INFO                 "MSGR / 21c"
+2020-09-15 22:47:12,314 INFO             ],
+2020-09-15 22:47:12,315 INFO             "start_date": "2020-09-14",
+2020-09-15 22:47:12,316 INFO             "end_date": "2020-09-15"
+2020-09-15 22:47:12,317 INFO         }
+2020-09-15 22:47:12,328 INFO     Creating TensorFlow estimator from saved model in directory "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Tseep Classifier/TensorFlow SavedModel"...
+2020-09-15 22:47:12,329 WARNING  
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+2020-09-15 22:47:13,349 WARNING  Using temporary folder as model directory: /var/folders/2z/dlxt5tt50nzdlqlx1qvr1zdm0000gn/T/tmp_dvuk1cs
+2020-09-15 22:47:13,354 WARNING  train mode not found in SavedModel.
+2020-09-15 22:47:13,354 WARNING  eval mode not found in SavedModel.
+2020-09-15 22:47:13,355 INFO     Loading classifier settings from "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Tseep Classifier/Settings.yaml"...
+2020-09-15 22:47:13,369 INFO     Creating TensorFlow estimator from saved model in directory "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Thrush Classifier/TensorFlow SavedModel"...
+2020-09-15 22:47:13,371 WARNING  Using temporary folder as model directory: /var/folders/2z/dlxt5tt50nzdlqlx1qvr1zdm0000gn/T/tmpkxtd567b
+2020-09-15 22:47:13,375 WARNING  train mode not found in SavedModel.
+2020-09-15 22:47:13,375 WARNING  eval mode not found in SavedModel.
+2020-09-15 22:47:13,375 INFO     Loading classifier settings from "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Thrush Classifier/Settings.yaml"...
+2020-09-15 22:47:13,394 INFO     Classifier will visit 1601 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-14.
+2020-09-15 22:47:15,915 INFO     Classified 0 of 1601 visited clips in 2.5 seconds, an average of 640.4 clips per second.
+2020-09-15 22:47:15,919 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-15.
+2020-09-15 22:47:15,922 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-09-15 22:47:16,363 INFO     Job completed.

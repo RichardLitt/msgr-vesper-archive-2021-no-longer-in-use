@@ -1,0 +1,199 @@
+2021-05-19 04:39:08,099 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/dataset_utils.py:25: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+2021-05-19 04:39:08,403 INFO     Job started for command "import" with arguments:
+2021-05-19 04:39:08,403 INFO         {
+2021-05-19 04:39:08,403 INFO             "importer": {
+2021-05-19 04:39:08,403 INFO                 "name": "Metadata Importer",
+2021-05-19 04:39:08,404 INFO                 "arguments": {
+2021-05-19 04:39:08,404 INFO                     "metadata": {
+2021-05-19 04:39:08,404 INFO                         "stations": [
+2021-05-19 04:39:08,404 INFO                             {
+2021-05-19 04:39:08,404 INFO                                 "name": "MSGR",
+2021-05-19 04:39:08,404 INFO                                 "description": "Monsignor Crosby station\n",
+2021-05-19 04:39:08,404 INFO                                 "time_zone": "US/Eastern",
+2021-05-19 04:39:08,405 INFO                                 "latitude": 44.25804,
+2021-05-19 04:39:08,405 INFO                                 "longitude": -72.57444,
+2021-05-19 04:39:08,405 INFO                                 "elevation": 175
+2021-05-19 04:39:08,405 INFO                             }
+2021-05-19 04:39:08,405 INFO                         ],
+2021-05-19 04:39:08,405 INFO                         "device_models": [
+2021-05-19 04:39:08,405 INFO                             {
+2021-05-19 04:39:08,405 INFO                                 "name": "PC Recorder",
+2021-05-19 04:39:08,405 INFO                                 "type": "Audio Recorder",
+2021-05-19 04:39:08,405 INFO                                 "manufacturer": "Various",
+2021-05-19 04:39:08,405 INFO                                 "model": "PC",
+2021-05-19 04:39:08,405 INFO                                 "description": "Personal computer as an audio recorder.",
+2021-05-19 04:39:08,405 INFO                                 "num_inputs": 2
+2021-05-19 04:39:08,405 INFO                             },
+2021-05-19 04:39:08,405 INFO                             {
+2021-05-19 04:39:08,405 INFO                                 "name": "21c Microphone",
+2021-05-19 04:39:08,405 INFO                                 "type": "Microphone",
+2021-05-19 04:39:08,405 INFO                                 "manufacturer": "Old Bird",
+2021-05-19 04:39:08,405 INFO                                 "model": "21c",
+2021-05-19 04:39:08,405 INFO                                 "description": "",
+2021-05-19 04:39:08,405 INFO                                 "num_outputs": 1
+2021-05-19 04:39:08,405 INFO                             }
+2021-05-19 04:39:08,405 INFO                         ],
+2021-05-19 04:39:08,405 INFO                         "devices": [
+2021-05-19 04:39:08,405 INFO                             {
+2021-05-19 04:39:08,405 INFO                                 "name": "PC",
+2021-05-19 04:39:08,405 INFO                                 "model": "PC Recorder",
+2021-05-19 04:39:08,405 INFO                                 "serial_number": 0,
+2021-05-19 04:39:08,405 INFO                                 "description": "Recorder used at the station of this archive."
+2021-05-19 04:39:08,405 INFO                             },
+2021-05-19 04:39:08,405 INFO                             {
+2021-05-19 04:39:08,405 INFO                                 "name": "21c",
+2021-05-19 04:39:08,405 INFO                                 "model": "21c Microphone",
+2021-05-19 04:39:08,405 INFO                                 "serial_number": 0,
+2021-05-19 04:39:08,405 INFO                                 "description": "Microphone used at the station of this archive."
+2021-05-19 04:39:08,405 INFO                             }
+2021-05-19 04:39:08,405 INFO                         ],
+2021-05-19 04:39:08,405 INFO                         "station_devices": [
+2021-05-19 04:39:08,405 INFO                             {
+2021-05-19 04:39:08,405 INFO                                 "station": "MSGR",
+2021-05-19 04:39:08,405 INFO                                 "start_time": "2020-01-01",
+2021-05-19 04:39:08,406 INFO                                 "end_time": "2021-01-01",
+2021-05-19 04:39:08,406 INFO                                 "devices": [
+2021-05-19 04:39:08,406 INFO                                     "PC",
+2021-05-19 04:39:08,406 INFO                                     "21c"
+2021-05-19 04:39:08,406 INFO                                 ],
+2021-05-19 04:39:08,406 INFO                                 "connections": [
+2021-05-19 04:39:08,406 INFO                                     {
+2021-05-19 04:39:08,406 INFO                                         "output": "21c Output",
+2021-05-19 04:39:08,406 INFO                                         "input": "PC Input 0"
+2021-05-19 04:39:08,406 INFO                                     }
+2021-05-19 04:39:08,406 INFO                                 ]
+2021-05-19 04:39:08,406 INFO                             }
+2021-05-19 04:39:08,406 INFO                         ],
+2021-05-19 04:39:08,406 INFO                         "detectors": [
+2021-05-19 04:39:08,406 INFO                             {
+2021-05-19 04:39:08,406 INFO                                 "name": "Old Bird Thrush Detector Redux 1.1",
+2021-05-19 04:39:08,406 INFO                                 "description": "Vesper reimplementation of Old Bird Thrush detector."
+2021-05-19 04:39:08,406 INFO                             },
+2021-05-19 04:39:08,406 INFO                             {
+2021-05-19 04:39:08,406 INFO                                 "name": "Old Bird Tseep Detector Redux 1.1",
+2021-05-19 04:39:08,406 INFO                                 "description": "Vesper reimplementation of Old Bird Tseep detector."
+2021-05-19 04:39:08,406 INFO                             }
+2021-05-19 04:39:08,406 INFO                         ],
+2021-05-19 04:39:08,406 INFO                         "classifiers": [
+2021-05-19 04:39:08,406 INFO                             {
+2021-05-19 04:39:08,406 INFO                                 "name": "MPG Ranch NFC Coarse Classifier 3.0",
+2021-05-19 04:39:08,406 INFO                                 "description": "Classifies an unclassified clip as a \"Call\" if it appears to be a nocturnal flight call, or as a \"Noise\" otherwise. Does not classify a clip that has already been classified, whether manually or automatically.\n"
+2021-05-19 04:39:08,406 INFO                             }
+2021-05-19 04:39:08,406 INFO                         ],
+2021-05-19 04:39:08,406 INFO                         "annotation_constraints": [
+2021-05-19 04:39:08,406 INFO                             {
+2021-05-19 04:39:08,406 INFO                                 "name": "Coarse Classification",
+2021-05-19 04:39:08,406 INFO                                 "description": "Coarse classifications only.",
+2021-05-19 04:39:08,406 INFO                                 "type": "Values",
+2021-05-19 04:39:08,406 INFO                                 "values": [
+2021-05-19 04:39:08,406 INFO                                     "Call",
+2021-05-19 04:39:08,406 INFO                                     "Noise",
+2021-05-19 04:39:08,406 INFO                                     "Tone",
+2021-05-19 04:39:08,406 INFO                                     "Other",
+2021-05-19 04:39:08,406 INFO                                     "Unknown"
+2021-05-19 04:39:08,406 INFO                                 ]
+2021-05-19 04:39:08,406 INFO                             },
+2021-05-19 04:39:08,406 INFO                             {
+2021-05-19 04:39:08,406 INFO                                 "name": "Classification",
+2021-05-19 04:39:08,407 INFO                                 "description": "All classifications, including call subclassifications.",
+2021-05-19 04:39:08,407 INFO                                 "type": "Hierarchical Values",
+2021-05-19 04:39:08,407 INFO                                 "extends": "Coarse Classification",
+2021-05-19 04:39:08,407 INFO                                 "values": [
+2021-05-19 04:39:08,407 INFO                                     {
+2021-05-19 04:39:08,407 INFO                                         "Call": [
+2021-05-19 04:39:08,407 INFO                                             "AMCO",
+2021-05-19 04:39:08,407 INFO                                             "AMPI",
+2021-05-19 04:39:08,407 INFO                                             "AMRE",
+2021-05-19 04:39:08,407 INFO                                             "AMRO",
+2021-05-19 04:39:08,407 INFO                                             "ATSP",
+2021-05-19 04:39:08,407 INFO                                             "BAWW",
+2021-05-19 04:39:08,407 INFO                                             "BBWA",
+2021-05-19 04:39:08,407 INFO                                             "BHGR",
+2021-05-19 04:39:08,407 INFO                                             "BTBW",
+2021-05-19 04:39:08,407 INFO                                             "CAWA",
+2021-05-19 04:39:08,407 INFO                                             "CMWA",
+2021-05-19 04:39:08,407 INFO                                             "CHSP",
+2021-05-19 04:39:08,407 INFO                                             "COYE",
+2021-05-19 04:39:08,407 INFO                                             "DBUP",
+2021-05-19 04:39:08,407 INFO                                             "DEJU",
+2021-05-19 04:39:08,407 INFO                                             "GCKI",
+2021-05-19 04:39:08,407 INFO                                             "GCTH_BICK",
+2021-05-19 04:39:08,407 INFO                                             "GRSP",
+2021-05-19 04:39:08,407 INFO                                             "GRYE",
+2021-05-19 04:39:08,407 INFO                                             "HETH",
+2021-05-19 04:39:08,407 INFO                                             "High",
+2021-05-19 04:39:08,407 INFO                                             "HOLA",
+2021-05-19 04:39:08,407 INFO                                             "LALO",
+2021-05-19 04:39:08,407 INFO                                             "LBCU",
+2021-05-19 04:39:08,407 INFO                                             "LISP",
+2021-05-19 04:39:08,407 INFO                                             "Low",
+2021-05-19 04:39:08,407 INFO                                             "MGWA",
+2021-05-19 04:39:08,407 INFO                                             "NOPA",
+2021-05-19 04:39:08,407 INFO                                             "NOWA",
+2021-05-19 04:39:08,407 INFO                                             "OVEN",
+2021-05-19 04:39:08,407 INFO                                             "Other",
+2021-05-19 04:39:08,407 INFO                                             "Peep",
+2021-05-19 04:39:08,407 INFO                                             "SAVS",
+2021-05-19 04:39:08,407 INFO                                             "SORA",
+2021-05-19 04:39:08,407 INFO                                             "SCTA",
+2021-05-19 04:39:08,407 INFO                                             "SOSP",
+2021-05-19 04:39:08,407 INFO                                             "SPSA_SOSA",
+2021-05-19 04:39:08,407 INFO                                             "SWTH",
+2021-05-19 04:39:08,407 INFO                                             "SWSP",
+2021-05-19 04:39:08,408 INFO                                             "UPSA",
+2021-05-19 04:39:08,408 INFO                                             "Unknown",
+2021-05-19 04:39:08,408 INFO                                             "VEER",
+2021-05-19 04:39:08,408 INFO                                             "VESP",
+2021-05-19 04:39:08,408 INFO                                             "VIRA",
+2021-05-19 04:39:08,408 INFO                                             "WCSP",
+2021-05-19 04:39:08,408 INFO                                             "WEME",
+2021-05-19 04:39:08,408 INFO                                             "WETA",
+2021-05-19 04:39:08,408 INFO                                             "WIWA",
+2021-05-19 04:39:08,408 INFO                                             "WOTH",
+2021-05-19 04:39:08,408 INFO                                             "WTSP",
+2021-05-19 04:39:08,408 INFO                                             "Weak",
+2021-05-19 04:39:08,408 INFO                                             "YRWA",
+2021-05-19 04:39:08,408 INFO                                             "Zeep"
+2021-05-19 04:39:08,408 INFO                                         ]
+2021-05-19 04:39:08,408 INFO                                     }
+2021-05-19 04:39:08,408 INFO                                 ]
+2021-05-19 04:39:08,408 INFO                             }
+2021-05-19 04:39:08,408 INFO                         ],
+2021-05-19 04:39:08,408 INFO                         "annotations": [
+2021-05-19 04:39:08,408 INFO                             {
+2021-05-19 04:39:08,408 INFO                                 "name": "Detector Score",
+2021-05-19 04:39:08,408 INFO                                 "type": "String"
+2021-05-19 04:39:08,408 INFO                             },
+2021-05-19 04:39:08,408 INFO                             {
+2021-05-19 04:39:08,408 INFO                                 "name": "Classification",
+2021-05-19 04:39:08,408 INFO                                 "type": "String",
+2021-05-19 04:39:08,408 INFO                                 "constraint": "Classification"
+2021-05-19 04:39:08,408 INFO                             }
+2021-05-19 04:39:08,408 INFO                         ]
+2021-05-19 04:39:08,408 INFO                     }
+2021-05-19 04:39:08,408 INFO                 }
+2021-05-19 04:39:08,408 INFO             }
+2021-05-19 04:39:08,408 INFO         }
+2021-05-19 04:39:08,409 INFO     Adding station "MSGR"...
+2021-05-19 04:39:08,417 INFO     Adding device model "PC Recorder"...
+2021-05-19 04:39:08,419 INFO     Adding device model "PC Recorder" input "Input 0"...
+2021-05-19 04:39:08,421 INFO     Adding device model "PC Recorder" input "Input 1"...
+2021-05-19 04:39:08,424 INFO     Adding device model "21c Microphone"...
+2021-05-19 04:39:08,425 INFO     Adding device model "21c Microphone" output "Output"...
+2021-05-19 04:39:08,428 INFO     Adding device "PC"...
+2021-05-19 04:39:08,432 INFO     Adding device "PC" input "Input 0"...
+2021-05-19 04:39:08,434 INFO     Adding device "PC" input "Input 1"...
+2021-05-19 04:39:08,436 INFO     Adding device "21c"...
+2021-05-19 04:39:08,440 INFO     Adding device "21c" output "Output"...
+2021-05-19 04:39:08,465 INFO     Adding station "MSGR" device "PC" from 2020-01-01 05:00:00+00:00 to 2021-01-01 05:00:00+00:00"...
+2021-05-19 04:39:08,468 INFO     Adding station "MSGR" device "21c" from 2020-01-01 05:00:00+00:00 to 2021-01-01 05:00:00+00:00"...
+2021-05-19 04:39:08,477 INFO     Adding station "MSGR" device connection "21c Output -> PC Input 0 from 2020-01-01 05:00:00+00:00 to 2021-01-01 05:00:00+00:00"...
+2021-05-19 04:39:08,479 INFO     Adding detector "Old Bird Thrush Detector Redux 1.1"...
+2021-05-19 04:39:08,481 INFO     Adding detector "Old Bird Tseep Detector Redux 1.1"...
+2021-05-19 04:39:08,482 INFO     Adding classifier "MPG Ranch NFC Coarse Classifier 3.0"...
+2021-05-19 04:39:08,483 INFO     Adding annotation constraint "Coarse Classification"...
+2021-05-19 04:39:08,488 INFO     Adding annotation constraint "Classification"...
+2021-05-19 04:39:08,493 INFO     Adding annotation "Detector Score"...
+2021-05-19 04:39:08,497 INFO     Adding annotation "Classification"...
+2021-05-19 04:39:08,512 INFO     Job completed.

@@ -1,0 +1,30 @@
+2020-05-20 08:13:26,706 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/dataset_utils.py:25: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+2020-05-20 08:13:27,255 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Clip Album Commands/._Calls.yaml".
+2020-05-20 08:13:27,265 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Clip Album Commands/._Coarse.yaml".
+2020-05-20 08:13:27,275 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Clip Album Settings/._Resizing Clips, Labels Below.yaml".
+2020-05-20 08:13:27,281 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Detection Schedule/._Ithaca 2019.yaml".
+2020-05-20 08:13:27,283 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Station Name Aliases/._Station Name Aliases.yaml".
+2020-05-20 08:13:27,283 INFO     Job started for command "import" with arguments:
+2020-05-20 08:13:27,283 INFO         {
+2020-05-20 08:13:27,283 INFO             "importer": {
+2020-05-20 08:13:27,283 INFO                 "name": "Recording Importer",
+2020-05-20 08:13:27,283 INFO                 "arguments": {
+2020-05-20 08:13:27,283 INFO                     "paths": [
+2020-05-20 08:13:27,283 INFO                         "/Volumes/Erebus/msgr-vesper-archive/Recordings"
+2020-05-20 08:13:27,283 INFO                     ],
+2020-05-20 08:13:27,283 INFO                     "recursive": false,
+2020-05-20 08:13:27,283 INFO                     "recording_file_parser": {
+2020-05-20 08:13:27,283 INFO                         "name": "MPG Ranch Recording File Parser",
+2020-05-20 08:13:27,283 INFO                         "arguments": {
+2020-05-20 08:13:27,283 INFO                             "station_name_aliases_preset": "Station Name Aliases"
+2020-05-20 08:13:27,283 INFO                         }
+2020-05-20 08:13:27,283 INFO                     }
+2020-05-20 08:13:27,283 INFO                 }
+2020-05-20 08:13:27,283 INFO             }
+2020-05-20 08:13:27,284 INFO         }
+2020-05-20 08:13:28,023 INFO     Found 1 new recording and 71 old recordings at the specified paths.
+2020-05-20 08:13:28,023 INFO     The new recordings will be imported.
+2020-05-20 08:13:28,033 INFO     Imported recording MSGR / PC / start 2020-05-20 00:30:00+00:00 / duration 9.000 h with files:
+2020-05-20 08:13:28,033 INFO         MSGR_2020-05-20_00.30.00_Z.wav
+2020-05-20 08:13:28,039 INFO     Job completed.

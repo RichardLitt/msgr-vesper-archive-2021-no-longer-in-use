@@ -1,0 +1,33 @@
+2020-05-13 19:04:37,546 INFO     Job started for command "create_clip_audio_files" with arguments:
+2020-05-13 19:04:37,547 INFO         {
+2020-05-13 19:04:37,547 INFO             "detectors": [
+2020-05-13 19:04:37,548 INFO                 "Old Bird Thrush Detector Redux 1.1"
+2020-05-13 19:04:37,548 INFO             ],
+2020-05-13 19:04:37,549 INFO             "station_mics": [
+2020-05-13 19:04:37,549 INFO                 "MSGR / 21c"
+2020-05-13 19:04:37,549 INFO             ],
+2020-05-13 19:04:37,549 INFO             "classification": "Unclassified",
+2020-05-13 19:04:37,549 INFO             "start_date": "2020-05-12",
+2020-05-13 19:04:37,550 INFO             "end_date": "2020-05-30"
+2020-05-13 19:04:37,550 INFO         }
+2020-05-13 19:04:37,906 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-12.
+2020-05-13 19:04:37,911 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-13.
+2020-05-13 19:04:37,915 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-14.
+2020-05-13 19:04:37,919 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-15.
+2020-05-13 19:04:37,922 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-16.
+2020-05-13 19:04:37,926 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-17.
+2020-05-13 19:04:37,930 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-18.
+2020-05-13 19:04:37,935 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-19.
+2020-05-13 19:04:37,939 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-20.
+2020-05-13 19:04:37,943 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-21.
+2020-05-13 19:04:37,946 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-22.
+2020-05-13 19:04:37,950 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-23.
+2020-05-13 19:04:37,953 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-24.
+2020-05-13 19:04:37,957 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-25.
+2020-05-13 19:04:37,961 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-26.
+2020-05-13 19:04:37,965 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-27.
+2020-05-13 19:04:37,969 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-28.
+2020-05-13 19:04:37,973 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-29.
+2020-05-13 19:04:37,976 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-30.
+2020-05-13 19:04:37,976 INFO     Processed a total of 0 clips in 0.4 seconds, an average of 0.0 clips per second.
+2020-05-13 19:04:37,988 INFO     Job completed.

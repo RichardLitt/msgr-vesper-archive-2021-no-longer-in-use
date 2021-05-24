@@ -1,0 +1,463 @@
+2020-06-08 10:27:04,145 INFO     Job started for command "classify" with arguments:
+2020-06-08 10:27:04,146 INFO         {
+2020-06-08 10:27:04,147 INFO             "classifier": "MPG Ranch NFC Coarse Classifier 3.0",
+2020-06-08 10:27:04,148 INFO             "annotation_name": "Classification",
+2020-06-08 10:27:04,148 INFO             "detectors": [
+2020-06-08 10:27:04,149 INFO                 "Old Bird Thrush Detector Redux 1.1"
+2020-06-08 10:27:04,149 INFO             ],
+2020-06-08 10:27:04,149 INFO             "station_mics": [
+2020-06-08 10:27:04,149 INFO                 "MSGR / 21c"
+2020-06-08 10:27:04,149 INFO             ],
+2020-06-08 10:27:04,149 INFO             "start_date": "2020-06-04",
+2020-06-08 10:27:04,149 INFO             "end_date": "2020-12-30"
+2020-06-08 10:27:04,150 INFO         }
+2020-06-08 10:27:04,186 INFO     Creating TensorFlow estimator from saved model in directory "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Tseep Classifier/TensorFlow SavedModel"...
+2020-06-08 10:27:04,186 WARNING  
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+2020-06-08 10:27:05,215 WARNING  Using temporary folder as model directory: /var/folders/2z/dlxt5tt50nzdlqlx1qvr1zdm0000gn/T/tmpf0yrif1l
+2020-06-08 10:27:05,222 WARNING  train mode not found in SavedModel.
+2020-06-08 10:27:05,223 WARNING  eval mode not found in SavedModel.
+2020-06-08 10:27:05,223 INFO     Loading classifier settings from "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Tseep Classifier/Settings.yaml"...
+2020-06-08 10:27:05,247 INFO     Creating TensorFlow estimator from saved model in directory "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Thrush Classifier/TensorFlow SavedModel"...
+2020-06-08 10:27:05,251 WARNING  Using temporary folder as model directory: /var/folders/2z/dlxt5tt50nzdlqlx1qvr1zdm0000gn/T/tmpz0n4aka0
+2020-06-08 10:27:05,256 WARNING  train mode not found in SavedModel.
+2020-06-08 10:27:05,256 WARNING  eval mode not found in SavedModel.
+2020-06-08 10:27:05,257 INFO     Loading classifier settings from "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Thrush Classifier/Settings.yaml"...
+2020-06-08 10:27:05,287 INFO     Classifier will visit 956 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-04.
+2020-06-08 10:27:18,963 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.real is deprecated. Please use tf.math.real instead.
+
+2020-06-08 10:27:18,963 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.conj is deprecated. Please use tf.math.conj instead.
+
+2020-06-08 10:27:18,964 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.log is deprecated. Please use tf.math.log instead.
+
+2020-06-08 10:27:19,213 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.Dimension is deprecated. Please use tf.compat.v1.Dimension instead.
+
+2020-06-08 10:27:19,641 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py:1475: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-06-08 10:27:28,141 INFO     Classified 956 of 956 visited clips in 22.9 seconds, an average of 41.7 clips per second.
+2020-06-08 10:27:28,147 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-05.
+2020-06-08 10:27:28,148 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:27:28,150 INFO     Classifier will visit 2127 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-06.
+2020-06-08 10:28:26,933 INFO     Classified 2127 of 2127 visited clips in 58.8 seconds, an average of 36.2 clips per second.
+2020-06-08 10:28:26,943 INFO     Classifier will visit 752 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-07.
+2020-06-08 10:28:42,318 INFO     Classified 752 of 752 visited clips in 15.4 seconds, an average of 48.8 clips per second.
+2020-06-08 10:28:42,323 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-08.
+2020-06-08 10:28:42,325 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,327 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-09.
+2020-06-08 10:28:42,329 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,332 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-10.
+2020-06-08 10:28:42,333 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,335 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-11.
+2020-06-08 10:28:42,336 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,339 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-12.
+2020-06-08 10:28:42,340 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,342 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-13.
+2020-06-08 10:28:42,344 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,345 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-14.
+2020-06-08 10:28:42,348 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,349 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-15.
+2020-06-08 10:28:42,350 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,352 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-16.
+2020-06-08 10:28:42,353 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,356 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-17.
+2020-06-08 10:28:42,357 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,360 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-18.
+2020-06-08 10:28:42,361 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,362 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-19.
+2020-06-08 10:28:42,365 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,366 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-20.
+2020-06-08 10:28:42,367 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,370 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-21.
+2020-06-08 10:28:42,372 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,375 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-22.
+2020-06-08 10:28:42,376 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,377 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-23.
+2020-06-08 10:28:42,380 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,381 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-24.
+2020-06-08 10:28:42,383 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,385 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-25.
+2020-06-08 10:28:42,387 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,389 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-26.
+2020-06-08 10:28:42,390 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,392 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-27.
+2020-06-08 10:28:42,393 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,396 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-28.
+2020-06-08 10:28:42,397 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,398 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-29.
+2020-06-08 10:28:42,400 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,403 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-30.
+2020-06-08 10:28:42,404 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,406 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-01.
+2020-06-08 10:28:42,408 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,409 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-02.
+2020-06-08 10:28:42,412 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,414 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-03.
+2020-06-08 10:28:42,415 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,417 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-04.
+2020-06-08 10:28:42,418 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,421 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-05.
+2020-06-08 10:28:42,421 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,424 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-06.
+2020-06-08 10:28:42,425 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,427 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-07.
+2020-06-08 10:28:42,429 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,431 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-08.
+2020-06-08 10:28:42,433 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,435 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-09.
+2020-06-08 10:28:42,437 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,438 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-10.
+2020-06-08 10:28:42,440 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,443 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-11.
+2020-06-08 10:28:42,444 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,447 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-12.
+2020-06-08 10:28:42,448 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,450 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-13.
+2020-06-08 10:28:42,451 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,453 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-14.
+2020-06-08 10:28:42,455 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,456 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-15.
+2020-06-08 10:28:42,458 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,460 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-16.
+2020-06-08 10:28:42,462 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,463 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-17.
+2020-06-08 10:28:42,465 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,467 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-18.
+2020-06-08 10:28:42,469 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,470 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-19.
+2020-06-08 10:28:42,472 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,475 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-20.
+2020-06-08 10:28:42,476 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,478 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-21.
+2020-06-08 10:28:42,480 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,482 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-22.
+2020-06-08 10:28:42,483 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,485 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-23.
+2020-06-08 10:28:42,487 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,488 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-24.
+2020-06-08 10:28:42,489 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,491 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-25.
+2020-06-08 10:28:42,493 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,495 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-26.
+2020-06-08 10:28:42,497 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,498 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-27.
+2020-06-08 10:28:42,500 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,501 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-28.
+2020-06-08 10:28:42,503 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,505 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-29.
+2020-06-08 10:28:42,506 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,509 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-30.
+2020-06-08 10:28:42,510 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,512 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-31.
+2020-06-08 10:28:42,514 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,515 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-01.
+2020-06-08 10:28:42,518 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,519 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-02.
+2020-06-08 10:28:42,520 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,523 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-03.
+2020-06-08 10:28:42,525 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,527 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-04.
+2020-06-08 10:28:42,528 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,530 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-05.
+2020-06-08 10:28:42,532 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,535 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-06.
+2020-06-08 10:28:42,536 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,541 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-07.
+2020-06-08 10:28:42,544 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,547 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-08.
+2020-06-08 10:28:42,550 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,553 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-09.
+2020-06-08 10:28:42,556 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,558 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-10.
+2020-06-08 10:28:42,560 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,565 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-11.
+2020-06-08 10:28:42,573 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,579 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-12.
+2020-06-08 10:28:42,581 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,584 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-13.
+2020-06-08 10:28:42,587 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,591 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-14.
+2020-06-08 10:28:42,592 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,597 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-15.
+2020-06-08 10:28:42,601 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,606 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-16.
+2020-06-08 10:28:42,610 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,613 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-17.
+2020-06-08 10:28:42,616 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,620 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-18.
+2020-06-08 10:28:42,624 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,628 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-19.
+2020-06-08 10:28:42,631 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,637 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-20.
+2020-06-08 10:28:42,638 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,640 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-21.
+2020-06-08 10:28:42,642 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,644 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-22.
+2020-06-08 10:28:42,648 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,652 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-23.
+2020-06-08 10:28:42,653 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,655 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-24.
+2020-06-08 10:28:42,656 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,659 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-25.
+2020-06-08 10:28:42,662 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,667 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-26.
+2020-06-08 10:28:42,669 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,670 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-27.
+2020-06-08 10:28:42,672 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,674 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-28.
+2020-06-08 10:28:42,675 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,678 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-29.
+2020-06-08 10:28:42,681 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:42,685 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-30.
+2020-06-08 10:28:43,464 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,466 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-31.
+2020-06-08 10:28:43,468 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,470 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-01.
+2020-06-08 10:28:43,471 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,474 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-02.
+2020-06-08 10:28:43,475 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,476 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-03.
+2020-06-08 10:28:43,478 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,480 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-04.
+2020-06-08 10:28:43,483 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,484 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-05.
+2020-06-08 10:28:43,486 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,488 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-06.
+2020-06-08 10:28:43,490 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,491 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-07.
+2020-06-08 10:28:43,493 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,495 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-08.
+2020-06-08 10:28:43,496 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,499 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-09.
+2020-06-08 10:28:43,500 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,502 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-10.
+2020-06-08 10:28:43,504 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,506 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-11.
+2020-06-08 10:28:43,507 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,510 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-12.
+2020-06-08 10:28:43,511 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,514 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-13.
+2020-06-08 10:28:43,515 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,517 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-14.
+2020-06-08 10:28:43,518 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,520 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-15.
+2020-06-08 10:28:43,522 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,524 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-16.
+2020-06-08 10:28:43,525 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,527 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-17.
+2020-06-08 10:28:43,528 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,529 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-18.
+2020-06-08 10:28:43,531 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,533 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-19.
+2020-06-08 10:28:43,535 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,537 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-20.
+2020-06-08 10:28:43,539 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,541 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-21.
+2020-06-08 10:28:43,543 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,545 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-22.
+2020-06-08 10:28:43,547 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,548 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-23.
+2020-06-08 10:28:43,550 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,552 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-24.
+2020-06-08 10:28:43,553 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,556 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-25.
+2020-06-08 10:28:43,557 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,559 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-26.
+2020-06-08 10:28:43,561 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,563 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-27.
+2020-06-08 10:28:43,564 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,566 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-28.
+2020-06-08 10:28:43,567 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,569 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-29.
+2020-06-08 10:28:43,571 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,573 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-30.
+2020-06-08 10:28:43,575 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,577 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-01.
+2020-06-08 10:28:43,578 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,580 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-02.
+2020-06-08 10:28:43,582 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,583 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-03.
+2020-06-08 10:28:43,585 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,587 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-04.
+2020-06-08 10:28:43,589 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,590 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-05.
+2020-06-08 10:28:43,592 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,594 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-06.
+2020-06-08 10:28:43,595 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,597 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-07.
+2020-06-08 10:28:43,599 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,601 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-08.
+2020-06-08 10:28:43,602 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,604 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-09.
+2020-06-08 10:28:43,605 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,607 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-10.
+2020-06-08 10:28:43,609 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,611 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-11.
+2020-06-08 10:28:43,612 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,614 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-12.
+2020-06-08 10:28:43,615 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,618 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-13.
+2020-06-08 10:28:43,620 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,621 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-14.
+2020-06-08 10:28:43,623 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,624 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-15.
+2020-06-08 10:28:43,626 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,627 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-16.
+2020-06-08 10:28:43,629 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,631 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-17.
+2020-06-08 10:28:43,633 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,635 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-18.
+2020-06-08 10:28:43,637 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,639 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-19.
+2020-06-08 10:28:43,641 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,644 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-20.
+2020-06-08 10:28:43,645 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,647 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-21.
+2020-06-08 10:28:43,649 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,651 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-22.
+2020-06-08 10:28:43,653 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,654 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-23.
+2020-06-08 10:28:43,656 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,658 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-24.
+2020-06-08 10:28:43,660 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,661 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-25.
+2020-06-08 10:28:43,663 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,665 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-26.
+2020-06-08 10:28:43,667 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,668 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-27.
+2020-06-08 10:28:43,670 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,672 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-28.
+2020-06-08 10:28:43,674 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,676 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-29.
+2020-06-08 10:28:43,678 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,679 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-30.
+2020-06-08 10:28:43,680 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,682 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-31.
+2020-06-08 10:28:43,684 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,686 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-01.
+2020-06-08 10:28:43,687 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,689 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-02.
+2020-06-08 10:28:43,690 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,693 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-03.
+2020-06-08 10:28:43,696 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,697 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-04.
+2020-06-08 10:28:43,699 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,701 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-05.
+2020-06-08 10:28:43,703 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,704 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-06.
+2020-06-08 10:28:43,707 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,709 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-07.
+2020-06-08 10:28:43,710 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,713 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-08.
+2020-06-08 10:28:43,714 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,717 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-09.
+2020-06-08 10:28:43,719 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,720 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-10.
+2020-06-08 10:28:43,721 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,724 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-11.
+2020-06-08 10:28:43,725 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,727 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-12.
+2020-06-08 10:28:43,729 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,730 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-13.
+2020-06-08 10:28:43,732 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,734 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-14.
+2020-06-08 10:28:43,735 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,737 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-15.
+2020-06-08 10:28:43,739 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,740 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-16.
+2020-06-08 10:28:43,742 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,744 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-17.
+2020-06-08 10:28:43,746 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,749 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-18.
+2020-06-08 10:28:43,751 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,757 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-19.
+2020-06-08 10:28:43,759 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,762 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-20.
+2020-06-08 10:28:43,763 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,765 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-21.
+2020-06-08 10:28:43,769 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,772 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-22.
+2020-06-08 10:28:43,774 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,777 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-23.
+2020-06-08 10:28:43,781 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,785 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-24.
+2020-06-08 10:28:43,787 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,791 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-25.
+2020-06-08 10:28:43,797 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,800 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-26.
+2020-06-08 10:28:43,805 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,812 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-27.
+2020-06-08 10:28:43,816 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,830 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-28.
+2020-06-08 10:28:43,832 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,834 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-29.
+2020-06-08 10:28:43,835 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,838 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-30.
+2020-06-08 10:28:43,839 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,844 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-01.
+2020-06-08 10:28:43,845 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,848 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-02.
+2020-06-08 10:28:43,849 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,852 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-03.
+2020-06-08 10:28:43,887 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,907 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-04.
+2020-06-08 10:28:43,910 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,914 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-05.
+2020-06-08 10:28:43,972 INFO     Classified 0 of 0 visited clips in 0.1 seconds, an average of 0.0 clips per second.
+2020-06-08 10:28:43,977 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-06.
+2020-06-08 10:28:43,980 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,984 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-07.
+2020-06-08 10:28:43,987 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:43,993 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-08.
+2020-06-08 10:28:43,995 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,021 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-09.
+2020-06-08 10:28:44,024 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,030 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-10.
+2020-06-08 10:28:44,033 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,036 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-11.
+2020-06-08 10:28:44,070 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,074 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-12.
+2020-06-08 10:28:44,077 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,085 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-13.
+2020-06-08 10:28:44,095 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,107 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-14.
+2020-06-08 10:28:44,119 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,139 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-15.
+2020-06-08 10:28:44,184 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,191 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-16.
+2020-06-08 10:28:44,205 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,223 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-17.
+2020-06-08 10:28:44,236 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,244 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-18.
+2020-06-08 10:28:44,249 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,254 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-19.
+2020-06-08 10:28:44,259 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,268 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-20.
+2020-06-08 10:28:44,273 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,279 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-21.
+2020-06-08 10:28:44,284 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,289 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-22.
+2020-06-08 10:28:44,316 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,325 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-23.
+2020-06-08 10:28:44,331 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,335 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-24.
+2020-06-08 10:28:44,337 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,350 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-25.
+2020-06-08 10:28:44,366 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,371 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-26.
+2020-06-08 10:28:44,373 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,389 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-27.
+2020-06-08 10:28:44,392 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,403 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-28.
+2020-06-08 10:28:44,410 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,415 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-29.
+2020-06-08 10:28:44,420 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,427 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-30.
+2020-06-08 10:28:44,471 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-08 10:28:44,494 INFO     Job completed.

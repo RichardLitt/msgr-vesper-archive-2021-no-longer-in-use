@@ -1,0 +1,122 @@
+2020-03-26 12:45:20,401 INFO     Job started for command "detect" with arguments:
+2020-03-26 12:45:20,402 INFO         {
+2020-03-26 12:45:20,402 INFO             "detectors": [
+2020-03-26 12:45:20,403 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-03-26 12:45:20,403 INFO             ],
+2020-03-26 12:45:20,403 INFO             "stations": [
+2020-03-26 12:45:20,403 INFO                 "MSGR"
+2020-03-26 12:45:20,403 INFO             ],
+2020-03-26 12:45:20,404 INFO             "start_date": "2020-03-20",
+2020-03-26 12:45:20,404 INFO             "end_date": "2020-03-30",
+2020-03-26 12:45:20,404 INFO             "schedule": "",
+2020-03-26 12:45:20,404 INFO             "defer_clip_creation": false
+2020-03-26 12:45:20,404 INFO         }
+2020-03-26 12:45:20,420 INFO     This command will process recordings for 5 station-nights.
+2020-03-26 12:45:20,426 INFO     Processing recordings for station-night 1 of 5 - "MSGR 2020-03-20"...
+2020-03-26 12:45:20,429 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-03-21 01:00:28+00:00 / duration 14.293 h"...
+2020-03-26 12:45:20,435 INFO             Running detector on file "/Volumes/Erebus/msgr-vesper-archive/Recordings/MSGR_2020-03-21_01.00.28_Z.wav"...
+2020-03-26 12:45:20,742 ERROR    Job failed with an exception. See traceback below.
+Traceback (most recent call last):
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: vesper_clip.recording_channel_id, vesper_clip.start_time, vesper_clip.creating_processor_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/detect_command.py", line 866, in _create_clips
+    creating_processor=detector_model
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1391, in execute_sql
+    cursor.execute(sql, params)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: vesper_clip.recording_channel_id, vesper_clip.start_time, vesper_clip.creating_processor_id
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py", line 172, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/fields/mixins.py", line 13, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'device'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/job_runner.py", line 145, in run_job
+    complete = command.execute(info)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/detect_command.py", line 152, in execute
+    self._run_other_detectors(other_detectors, recordings)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/detect_command.py", line 352, in _run_other_detectors
+    detector_models, file_, recording_intervals)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/detect_command.py", line 438, in _run_other_detectors_on_file
+    detector_models, file_, abs_path, reader, interval)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/detect_command.py", line 467, in _run_other_detectors_on_file_interval
+    detector.detect(channel_samples)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/old_bird/old_bird_detector_redux_1_1.py", line 278, in detect
+    self._notify_listener(clips)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/old_bird/old_bird_detector_redux_1_1.py", line 322, in _notify_listener
+    self._listener.process_clip(start_index, length)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/detect_command.py", line 784, in process_clip
+    self._create_clips(threshold)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/detect_command.py", line 895, in _create_clips
+    station.name, mic_output.name,
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/django/app/models.py", line 187, in name
+    return self.device.name + ' ' + self.local_name
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py", line 186, in __get__
+    rel_obj = self.get_object(instance)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py", line 153, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/query.py", line 411, in get
+    num = len(clone)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/query.py", line 258, in __len__
+    self._fetch_all()
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1151, in execute_sql
+    cursor.execute(sql, params)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/utils.py", line 80, in _execute
+    self.db.validate_no_broken_transaction()
+  File "//anaconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/django/db/backends/base/base.py", line 449, in validate_no_broken_transaction
+    "An error occurred in the current transaction. You can't "
+django.db.transaction.TransactionManagementError: An error occurred in the current transaction. You can't execute queries until the end of the 'atomic' block.
+

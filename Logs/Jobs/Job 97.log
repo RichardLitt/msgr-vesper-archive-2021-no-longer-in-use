@@ -1,0 +1,76 @@
+2020-03-21 23:45:36,558 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Clip Album Commands/._Calls.yaml".
+2020-03-21 23:45:36,565 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Clip Album Commands/._Coarse.yaml".
+2020-03-21 23:45:36,571 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Clip Album Settings/._Resizing Clips, Labels Below.yaml".
+2020-03-21 23:45:36,573 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Detection Schedule/._Ithaca 2019.yaml".
+2020-03-21 23:45:36,575 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Station Name Aliases/._Station Name Aliases.yaml".
+2020-03-21 23:45:36,575 INFO     Job started for command "import" with arguments:
+2020-03-21 23:45:36,575 INFO         {
+2020-03-21 23:45:36,575 INFO             "importer": {
+2020-03-21 23:45:36,575 INFO                 "name": "Recording Importer",
+2020-03-21 23:45:36,575 INFO                 "arguments": {
+2020-03-21 23:45:36,575 INFO                     "paths": [
+2020-03-21 23:45:36,575 INFO                         "/Volumes/Erebus/msgr-vesper-archive/Recordings"
+2020-03-21 23:45:36,575 INFO                     ],
+2020-03-21 23:45:36,575 INFO                     "recursive": false,
+2020-03-21 23:45:36,575 INFO                     "recording_file_parser": {
+2020-03-21 23:45:36,575 INFO                         "name": "MPG Ranch Recording File Parser",
+2020-03-21 23:45:36,575 INFO                         "arguments": {
+2020-03-21 23:45:36,575 INFO                             "station_name_aliases_preset": "Station Name Aliases"
+2020-03-21 23:45:36,575 INFO                         }
+2020-03-21 23:45:36,575 INFO                     }
+2020-03-21 23:45:36,575 INFO                 }
+2020-03-21 23:45:36,575 INFO             }
+2020-03-21 23:45:36,575 INFO         }
+2020-03-21 23:45:36,649 ERROR    Recording import failed with an exception.
+The exception message was:
+    Error parsing recording file "/Volumes/Erebus/msgr-vesper-archive/Recordings/MSGR_2020-03-21_01.00.28_Z.wav": Attempt to read audio file metadata failed with message: not a WAVE file
+The archive was not modified.
+See below for exception traceback.
+2020-03-21 23:45:36,656 ERROR    Job raised exception. See traceback below.
+Traceback (most recent call last):
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/mpg_ranch/recording_file_parser.py", line 561, in _get_audio_file_info
+    info = audio_file_utils.get_wave_file_info(file_path)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/util/audio_file_utils.py", line 42, in get_wave_file_info
+    with wave.open(path, 'rb') as reader:
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/wave.py", line 499, in open
+    return Wave_read(f)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/wave.py", line 163, in __init__
+    self.initfp(f)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/wave.py", line 132, in initfp
+    raise Error('not a WAVE file')
+wave.Error: not a WAVE file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 193, in _parse_recording_file
+    file = self.file_parser.parse_file(str(file_path))
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/mpg_ranch/recording_file_parser.py", line 528, in parse_file
+    self._get_audio_file_info(file_path)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/mpg_ranch/recording_file_parser.py", line 566, in _get_audio_file_info
+    '{}').format(str(e)))
+ValueError: Attempt to read audio file metadata failed with message: not a WAVE file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/job_runner.py", line 145, in run_job
+    complete = command.execute(info)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/import_command.py", line 22, in execute
+    return self._importer.execute(context)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 58, in execute
+    recordings = self._get_recordings()
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 85, in _get_recordings
+    self._get_path_recording_files(path) for path in self.paths))
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 85, in <genexpr>
+    self._get_path_recording_files(path) for path in self.paths))
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 92, in _get_path_recording_files
+    return self._get_dir_recording_files(path)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 107, in _get_dir_recording_files
+    file = self._get_recording_file(Path(file_path))
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 126, in _get_recording_file
+    file = self._parse_recording_file(abs_path)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 198, in _parse_recording_file
+    file_path, str(e)))
+vesper.command.command.CommandExecutionError: Error parsing recording file "/Volumes/Erebus/msgr-vesper-archive/Recordings/MSGR_2020-03-21_01.00.28_Z.wav": Attempt to read audio file metadata failed with message: not a WAVE file
+

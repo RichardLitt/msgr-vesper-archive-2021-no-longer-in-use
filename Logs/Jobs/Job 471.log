@@ -1,0 +1,28 @@
+2020-09-25 11:19:54,502 INFO     Job started for command "export" with arguments:
+2020-09-25 11:19:54,503 INFO         {
+2020-09-25 11:19:54,503 INFO             "exporter": {
+2020-09-25 11:19:54,504 INFO                 "name": "Clip Metadata CSV File Exporter",
+2020-09-25 11:19:54,504 INFO                 "arguments": {
+2020-09-25 11:19:54,504 INFO                     "output_file_path": "2020-09-23-25_tseep.csv"
+2020-09-25 11:19:54,504 INFO                 }
+2020-09-25 11:19:54,504 INFO             },
+2020-09-25 11:19:54,504 INFO             "detectors": [
+2020-09-25 11:19:54,504 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-09-25 11:19:54,507 INFO             ],
+2020-09-25 11:19:54,511 INFO             "station_mics": [
+2020-09-25 11:19:54,513 INFO                 "MSGR / 21c"
+2020-09-25 11:19:54,514 INFO             ],
+2020-09-25 11:19:54,514 INFO             "classification": "Call*",
+2020-09-25 11:19:54,514 INFO             "start_date": "2020-09-22",
+2020-09-25 11:19:54,514 INFO             "end_date": "2020-09-25"
+2020-09-25 11:19:54,514 INFO         }
+2020-09-25 11:19:54,552 INFO     Exporter will visit 538 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-22.
+2020-09-25 11:19:58,212 INFO     Visited 500 clips...
+2020-09-25 11:19:58,480 INFO     Exported 538 of 538 visited clips.
+2020-09-25 11:19:58,486 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-23.
+2020-09-25 11:19:58,487 INFO     Exported 0 of 0 visited clips.
+2020-09-25 11:19:58,492 INFO     Exporter will visit 252 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-24.
+2020-09-25 11:20:00,529 INFO     Exported 252 of 252 visited clips.
+2020-09-25 11:20:00,534 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-25.
+2020-09-25 11:20:00,536 INFO     Exported 0 of 0 visited clips.
+2020-09-25 11:20:00,552 INFO     Job completed.

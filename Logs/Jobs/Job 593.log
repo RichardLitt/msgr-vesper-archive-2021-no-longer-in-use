@@ -1,0 +1,27 @@
+2020-10-28 10:51:52,521 INFO     Job started for command "export" with arguments:
+2020-10-28 10:51:52,522 INFO         {
+2020-10-28 10:51:52,525 INFO             "exporter": {
+2020-10-28 10:51:52,526 INFO                 "name": "Clip Metadata CSV File Exporter",
+2020-10-28 10:51:52,527 INFO                 "arguments": {
+2020-10-28 10:51:52,527 INFO                     "output_file_path": "2020-10-26 thrush.csv"
+2020-10-28 10:51:52,527 INFO                 }
+2020-10-28 10:51:52,527 INFO             },
+2020-10-28 10:51:52,530 INFO             "detectors": [
+2020-10-28 10:51:52,530 INFO                 "Old Bird Thrush Detector Redux 1.1"
+2020-10-28 10:51:52,532 INFO             ],
+2020-10-28 10:51:52,533 INFO             "station_mics": [
+2020-10-28 10:51:52,534 INFO                 "MSGR / 21c"
+2020-10-28 10:51:52,535 INFO             ],
+2020-10-28 10:51:52,535 INFO             "classification": "Call*",
+2020-10-28 10:51:52,536 INFO             "start_date": "2020-10-26",
+2020-10-28 10:51:52,536 INFO             "end_date": "2020-10-29"
+2020-10-28 10:51:52,537 INFO         }
+2020-10-28 10:51:52,556 INFO     Exporter will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-26.
+2020-10-28 10:51:52,563 INFO     Exported 0 of 0 visited clips.
+2020-10-28 10:51:52,572 INFO     Exporter will visit 2 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-27.
+2020-10-28 10:51:52,605 INFO     Exported 2 of 2 visited clips.
+2020-10-28 10:51:52,610 INFO     Exporter will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-28.
+2020-10-28 10:51:52,615 INFO     Exported 0 of 0 visited clips.
+2020-10-28 10:51:52,623 INFO     Exporter will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-29.
+2020-10-28 10:51:52,625 INFO     Exported 0 of 0 visited clips.
+2020-10-28 10:51:52,645 INFO     Job completed.

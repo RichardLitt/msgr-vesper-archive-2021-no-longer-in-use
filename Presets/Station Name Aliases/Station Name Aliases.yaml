@@ -1,0 +1,14 @@
+# A station name aliases preset is a mapping from station names as they appear
+# in an archive to lists of aliases for them that appear in recording and clip
+# file names. The archive station names should be capitalized exactly they are
+# in the archive. The capitalization of aliases is irrelevant since they and
+# station names that appear in file names are converted to lower case before
+# comparison.
+
+#Floodplain:
+#    - flood
+#    - flood-nfc21c
+
+#Sheep Camp:
+#    - sheep
+#    - sheepcamp

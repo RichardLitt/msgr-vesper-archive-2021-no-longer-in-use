@@ -1,0 +1,21 @@
+2020-03-09 09:34:45,398 INFO     Job started for command "detect" with arguments:
+2020-03-09 09:34:45,399 INFO         {
+2020-03-09 09:34:45,399 INFO             "detectors": [
+2020-03-09 09:34:45,400 INFO                 "Old Bird Thrush Detector Redux 1.1"
+2020-03-09 09:34:45,400 INFO             ],
+2020-03-09 09:34:45,400 INFO             "stations": [
+2020-03-09 09:34:45,400 INFO                 "MSGR"
+2020-03-09 09:34:45,400 INFO             ],
+2020-03-09 09:34:45,400 INFO             "start_date": "2020-01-01",
+2020-03-09 09:34:45,400 INFO             "end_date": "2021-01-01",
+2020-03-09 09:34:45,400 INFO             "schedule": "Ithaca 2019",
+2020-03-09 09:34:45,400 INFO             "defer_clip_creation": false
+2020-03-09 09:34:45,401 INFO         }
+2020-03-09 09:34:45,412 INFO     This command will process recordings for 2 station-nights.
+2020-03-09 09:34:45,412 INFO     Processing recordings for station-night 1 of 2 - "MSGR 2020-03-04"...
+2020-03-09 09:34:45,415 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-03-04 21:36:23+00:00 / duration 6.874 h"...
+2020-03-09 09:34:45,742 INFO             There are no detection intervals in file "/Users/richard/src/msgr-vesper-archive/Recordings/MSGR_2020-03-04_21.36.23_Z.wav", so no detectors will be run on it.
+2020-03-09 09:34:45,742 INFO     Processing recordings for station-night 2 of 2 - "MSGR 2020-03-08"...
+2020-03-09 09:34:45,743 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-03-08 20:30:00+00:00 / duration 8.999 h"...
+2020-03-09 09:34:45,744 INFO             There are no detection intervals in file "/Users/richard/src/msgr-vesper-archive/Recordings/MSGR_2020-03-08_20.30.00_Z.wav", so no detectors will be run on it.
+2020-03-09 09:34:45,748 INFO     Job complete.

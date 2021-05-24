@@ -1,0 +1,20 @@
+2020-05-19 08:46:30,552 INFO     Job started for command "detect" with arguments:
+2020-05-19 08:46:30,553 INFO         {
+2020-05-19 08:46:30,554 INFO             "detectors": [
+2020-05-19 08:46:30,554 INFO                 "Old Bird Thrush Detector Redux 1.1"
+2020-05-19 08:46:30,555 INFO             ],
+2020-05-19 08:46:30,555 INFO             "stations": [
+2020-05-19 08:46:30,555 INFO                 "MSGR"
+2020-05-19 08:46:30,555 INFO             ],
+2020-05-19 08:46:30,555 INFO             "start_date": "2020-05-18",
+2020-05-19 08:46:30,555 INFO             "end_date": "2020-05-30",
+2020-05-19 08:46:30,555 INFO             "schedule": "",
+2020-05-19 08:46:30,556 INFO             "defer_clip_creation": false
+2020-05-19 08:46:30,556 INFO         }
+2020-05-19 08:46:30,571 INFO     This command will process recordings for 1 station-night.
+2020-05-19 08:46:30,571 INFO     Processing recordings for station-night 1 of 1 - "MSGR 2020-05-18"...
+2020-05-19 08:46:30,575 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-05-19 00:49:05+00:00 / duration 8.680 h"...
+2020-05-19 08:46:30,581 INFO             Running detector on file "/Volumes/Erebus/msgr-vesper-archive/Recordings/MSGR_2020-05-19_00.49.05_Z.wav"...
+2020-05-19 08:47:54,038 INFO             Created 1025 clips from detector "Old Bird Thrush Detector Redux 1.1".
+2020-05-19 08:47:54,038 INFO             Ran 1 detector on 31247 seconds of 1-channel audio in 83 seconds, 374 times faster than real time.
+2020-05-19 08:47:54,083 INFO     Job completed.

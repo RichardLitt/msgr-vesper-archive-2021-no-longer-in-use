@@ -1,0 +1,47 @@
+2020-09-07 13:05:16,484 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/dataset_utils.py:25: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+2020-09-07 13:05:17,090 INFO     Job started for command "export" with arguments:
+2020-09-07 13:05:17,090 INFO         {
+2020-09-07 13:05:17,091 INFO             "exporter": {
+2020-09-07 13:05:17,091 INFO                 "name": "Clip Metadata CSV File Exporter",
+2020-09-07 13:05:17,091 INFO                 "arguments": {
+2020-09-07 13:05:17,091 INFO                     "output_file_path": "2020-09 Output thrush.csv"
+2020-09-07 13:05:17,091 INFO                 }
+2020-09-07 13:05:17,091 INFO             },
+2020-09-07 13:05:17,091 INFO             "detectors": [
+2020-09-07 13:05:17,091 INFO                 "Old Bird Thrush Detector Redux 1.1"
+2020-09-07 13:05:17,091 INFO             ],
+2020-09-07 13:05:17,091 INFO             "station_mics": [
+2020-09-07 13:05:17,091 INFO                 "MSGR / 21c"
+2020-09-07 13:05:17,091 INFO             ],
+2020-09-07 13:05:17,091 INFO             "classification": "*",
+2020-09-07 13:05:17,091 INFO             "start_date": "2020-09-01",
+2020-09-07 13:05:17,091 INFO             "end_date": "2020-09-10"
+2020-09-07 13:05:17,091 INFO         }
+2020-09-07 13:05:17,109 INFO     Exporter will visit 49 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-01.
+2020-09-07 13:05:17,464 INFO     Exported 49 of 49 visited clips.
+2020-09-07 13:05:17,477 INFO     Exporter will visit 3461 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-02.
+2020-09-07 13:05:21,267 INFO     Visited 500 clips...
+2020-09-07 13:05:25,161 INFO     Visited 1000 clips...
+2020-09-07 13:05:28,754 INFO     Visited 1500 clips...
+2020-09-07 13:05:32,387 INFO     Visited 2000 clips...
+2020-09-07 13:05:35,817 INFO     Visited 2500 clips...
+2020-09-07 13:05:39,376 INFO     Visited 3000 clips...
+2020-09-07 13:05:42,698 INFO     Exported 3461 of 3461 visited clips.
+2020-09-07 13:05:42,718 INFO     Exporter will visit 68 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-03.
+2020-09-07 13:05:43,233 INFO     Exported 68 of 68 visited clips.
+2020-09-07 13:05:43,237 INFO     Exporter will visit 110 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-04.
+2020-09-07 13:05:44,100 INFO     Exported 110 of 110 visited clips.
+2020-09-07 13:05:44,108 INFO     Exporter will visit 231 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-05.
+2020-09-07 13:05:45,891 INFO     Exported 231 of 231 visited clips.
+2020-09-07 13:05:45,895 INFO     Exporter will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-06.
+2020-09-07 13:05:45,897 INFO     Exported 0 of 0 visited clips.
+2020-09-07 13:05:45,900 INFO     Exporter will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-07.
+2020-09-07 13:05:45,902 INFO     Exported 0 of 0 visited clips.
+2020-09-07 13:05:45,904 INFO     Exporter will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-08.
+2020-09-07 13:05:45,906 INFO     Exported 0 of 0 visited clips.
+2020-09-07 13:05:45,909 INFO     Exporter will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-09.
+2020-09-07 13:05:45,910 INFO     Exported 0 of 0 visited clips.
+2020-09-07 13:05:45,913 INFO     Exporter will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-10.
+2020-09-07 13:05:45,914 INFO     Exported 0 of 0 visited clips.
+2020-09-07 13:05:45,928 INFO     Job completed.

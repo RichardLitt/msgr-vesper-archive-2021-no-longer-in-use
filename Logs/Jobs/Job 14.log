@@ -1,0 +1,25 @@
+2020-03-09 09:38:57,109 INFO     Job started for command "detect" with arguments:
+2020-03-09 09:38:57,110 INFO         {
+2020-03-09 09:38:57,111 INFO             "detectors": [
+2020-03-09 09:38:57,111 INFO                 "Old Bird Thrush Detector Redux 1.1"
+2020-03-09 09:38:57,111 INFO             ],
+2020-03-09 09:38:57,111 INFO             "stations": [
+2020-03-09 09:38:57,111 INFO                 "MSGR"
+2020-03-09 09:38:57,111 INFO             ],
+2020-03-09 09:38:57,111 INFO             "start_date": "2020-01-01",
+2020-03-09 09:38:57,111 INFO             "end_date": "2021-01-01",
+2020-03-09 09:38:57,111 INFO             "schedule": "",
+2020-03-09 09:38:57,111 INFO             "defer_clip_creation": false
+2020-03-09 09:38:57,111 INFO         }
+2020-03-09 09:38:57,130 INFO     This command will process recordings for 2 station-nights.
+2020-03-09 09:38:57,130 INFO     Processing recordings for station-night 1 of 2 - "MSGR 2020-03-04"...
+2020-03-09 09:38:57,131 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-03-04 21:36:23+00:00 / duration 6.874 h"...
+2020-03-09 09:38:57,135 INFO             Running detector on file "/Users/richard/src/msgr-vesper-archive/Recordings/MSGR_2020-03-04_21.36.23_Z.wav"...
+2020-03-09 09:39:24,093 INFO             Archived 1181 clips from detector "Old Bird Thrush Detector Redux 1.1".
+2020-03-09 09:39:24,093 INFO             Ran 1 detector on 24746 seconds of 1-channel audio in 27 seconds, 918 times faster than real time.
+2020-03-09 09:39:24,094 INFO     Processing recordings for station-night 2 of 2 - "MSGR 2020-03-08"...
+2020-03-09 09:39:24,096 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-03-08 20:30:00+00:00 / duration 8.999 h"...
+2020-03-09 09:39:24,100 INFO             Running detector on file "/Users/richard/src/msgr-vesper-archive/Recordings/MSGR_2020-03-08_20.30.00_Z.wav"...
+2020-03-09 09:39:58,759 INFO             Archived 955 clips from detector "Old Bird Thrush Detector Redux 1.1".
+2020-03-09 09:39:58,759 INFO             Ran 1 detector on 32397 seconds of 1-channel audio in 35 seconds, 935 times faster than real time.
+2020-03-09 09:39:58,763 INFO     Job complete.

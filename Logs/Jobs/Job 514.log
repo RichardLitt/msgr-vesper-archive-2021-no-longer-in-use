@@ -1,0 +1,25 @@
+2020-10-04 21:58:38,860 INFO     Job started for command "detect" with arguments:
+2020-10-04 21:58:38,861 INFO         {
+2020-10-04 21:58:38,861 INFO             "detectors": [
+2020-10-04 21:58:38,863 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-10-04 21:58:38,863 INFO             ],
+2020-10-04 21:58:38,863 INFO             "stations": [
+2020-10-04 21:58:38,864 INFO                 "MSGR"
+2020-10-04 21:58:38,864 INFO             ],
+2020-10-04 21:58:38,864 INFO             "start_date": "2020-10-02",
+2020-10-04 21:58:38,865 INFO             "end_date": "2020-10-05",
+2020-10-04 21:58:38,865 INFO             "schedule": "",
+2020-10-04 21:58:38,866 INFO             "defer_clip_creation": false
+2020-10-04 21:58:38,867 INFO         }
+2020-10-04 21:58:38,878 INFO     This command will process recordings for 2 station-nights.
+2020-10-04 21:58:38,878 INFO     Processing recordings for station-night 1 of 2 - "MSGR 2020-10-02"...
+2020-10-04 21:58:38,880 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-10-03 00:04:00+00:00 / duration 9.167 h"...
+2020-10-04 21:58:38,886 INFO             Running detector on file "/Volumes/Erebus/msgr-vesper-archive/Recordings/MSGR_2020-10-03_00.04.00_Z.wav"...
+2020-10-04 22:00:13,955 INFO             Created 908 clips from detector "Old Bird Tseep Detector Redux 1.1".
+2020-10-04 22:00:13,955 INFO             Ran 1 detector on 33000 seconds of 1-channel audio in 95 seconds, 347 times faster than real time.
+2020-10-04 22:00:13,999 INFO     Processing recordings for station-night 2 of 2 - "MSGR 2020-10-03"...
+2020-10-04 22:00:14,001 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-10-04 00:04:00+00:00 / duration 9.167 h"...
+2020-10-04 22:00:14,004 INFO             Running detector on file "/Volumes/Erebus/msgr-vesper-archive/Recordings/MSGR_2020-10-04_00.04.00_Z.wav"...
+2020-10-04 22:01:46,562 INFO             Created 5965 clips from detector "Old Bird Tseep Detector Redux 1.1".
+2020-10-04 22:01:46,562 INFO             Ran 1 detector on 33000 seconds of 1-channel audio in 93 seconds, 357 times faster than real time.
+2020-10-04 22:01:46,621 INFO     Job completed.

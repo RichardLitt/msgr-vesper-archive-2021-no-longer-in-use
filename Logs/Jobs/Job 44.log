@@ -1,0 +1,62 @@
+2020-03-12 09:03:30,399 INFO     Job started for command "classify" with arguments:
+2020-03-12 09:03:30,399 INFO         {
+2020-03-12 09:03:30,400 INFO             "classifier": "MPG Ranch NFC Coarse Classifier 3.0",
+2020-03-12 09:03:30,401 INFO             "annotation_name": "Classification",
+2020-03-12 09:03:30,401 INFO             "detectors": [
+2020-03-12 09:03:30,401 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-03-12 09:03:30,401 INFO             ],
+2020-03-12 09:03:30,401 INFO             "station_mics": [
+2020-03-12 09:03:30,401 INFO                 "MSGR / 21c"
+2020-03-12 09:03:30,401 INFO             ],
+2020-03-12 09:03:30,401 INFO             "start_date": "2020-03-12",
+2020-03-12 09:03:30,401 INFO             "end_date": "2020-03-30"
+2020-03-12 09:03:30,401 INFO         }
+2020-03-12 09:03:30,410 INFO     Creating TensorFlow estimator from saved model in directory "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Tseep Classifier/TensorFlow SavedModel"...
+2020-03-12 09:03:34,774 WARNING  Using temporary folder as model directory: /var/folders/2z/dlxt5tt50nzdlqlx1qvr1zdm0000gn/T/tmpywi407hx
+2020-03-12 09:03:34,779 WARNING  train mode not found in SavedModel.
+2020-03-12 09:03:34,779 WARNING  eval mode not found in SavedModel.
+2020-03-12 09:03:34,779 INFO     Loading classifier settings from "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Tseep Classifier/Settings.yaml"...
+2020-03-12 09:03:34,789 INFO     Creating TensorFlow estimator from saved model in directory "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Thrush Classifier/TensorFlow SavedModel"...
+2020-03-12 09:03:34,791 WARNING  Using temporary folder as model directory: /var/folders/2z/dlxt5tt50nzdlqlx1qvr1zdm0000gn/T/tmpqa984cp_
+2020-03-12 09:03:34,794 WARNING  train mode not found in SavedModel.
+2020-03-12 09:03:34,794 WARNING  eval mode not found in SavedModel.
+2020-03-12 09:03:34,794 INFO     Loading classifier settings from "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Thrush Classifier/Settings.yaml"...
+2020-03-12 09:03:34,808 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-12.
+2020-03-12 09:03:34,810 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,812 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-13.
+2020-03-12 09:03:34,813 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,817 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-14.
+2020-03-12 09:03:34,820 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,821 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-15.
+2020-03-12 09:03:34,823 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,825 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-16.
+2020-03-12 09:03:34,827 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,828 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-17.
+2020-03-12 09:03:34,830 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,831 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-18.
+2020-03-12 09:03:34,833 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,835 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-19.
+2020-03-12 09:03:34,836 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,837 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-20.
+2020-03-12 09:03:34,839 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,841 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-21.
+2020-03-12 09:03:34,843 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,846 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-22.
+2020-03-12 09:03:34,848 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,851 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-23.
+2020-03-12 09:03:34,852 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,854 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-24.
+2020-03-12 09:03:34,855 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,857 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-25.
+2020-03-12 09:03:34,859 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,861 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-26.
+2020-03-12 09:03:34,863 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,865 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-27.
+2020-03-12 09:03:34,866 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,868 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-28.
+2020-03-12 09:03:34,870 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,871 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-29.
+2020-03-12 09:03:34,874 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,878 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-30.
+2020-03-12 09:03:34,880 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:03:34,884 INFO     Job complete.

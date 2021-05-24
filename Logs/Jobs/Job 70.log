@@ -1,0 +1,38 @@
+2020-03-16 22:25:23,581 INFO     Job started for command "export" with arguments:
+2020-03-16 22:25:23,582 INFO         {
+2020-03-16 22:25:23,582 INFO             "exporter": {
+2020-03-16 22:25:23,584 INFO                 "name": "Clip Audio Files",
+2020-03-16 22:25:23,585 INFO                 "arguments": {
+2020-03-16 22:25:23,586 INFO                     "output_dir_path": "/Users/richard/src/vesper/msgr-vesper-archive/Clips",
+2020-03-16 22:25:23,587 INFO                     "clip_file_name_formatter": {
+2020-03-16 22:25:23,587 INFO                         "name": "Simple Clip File Name Formatter"
+2020-03-16 22:25:23,587 INFO                     }
+2020-03-16 22:25:23,587 INFO                 }
+2020-03-16 22:25:23,588 INFO             },
+2020-03-16 22:25:23,588 INFO             "detectors": [
+2020-03-16 22:25:23,588 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-03-16 22:25:23,588 INFO             ],
+2020-03-16 22:25:23,588 INFO             "station_mics": [
+2020-03-16 22:25:23,588 INFO                 "MSGR / 21c"
+2020-03-16 22:25:23,588 INFO             ],
+2020-03-16 22:25:23,588 INFO             "start_date": "2020-03-13",
+2020-03-16 22:25:23,588 INFO             "end_date": "2020-03-15"
+2020-03-16 22:25:23,588 INFO         }
+2020-03-16 22:25:23,619 INFO     Exporter will visit 2919 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-13.
+2020-03-16 22:25:27,079 INFO     Visited 500 clips...
+2020-03-16 22:25:30,312 INFO     Visited 1000 clips...
+2020-03-16 22:25:33,335 INFO     Visited 1500 clips...
+2020-03-16 22:25:36,396 INFO     Visited 2000 clips...
+2020-03-16 22:25:40,006 INFO     Visited 2500 clips...
+2020-03-16 22:25:42,728 INFO     Exported 2919 of 2919 visited clips.
+2020-03-16 22:25:42,742 INFO     Exporter will visit 1518 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-14.
+2020-03-16 22:25:45,974 INFO     Visited 500 clips...
+2020-03-16 22:25:49,040 INFO     Visited 1000 clips...
+2020-03-16 22:25:52,109 INFO     Visited 1500 clips...
+2020-03-16 22:25:52,218 INFO     Exported 1518 of 1518 visited clips.
+2020-03-16 22:25:52,227 INFO     Exporter will visit 1895 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-15.
+2020-03-16 22:25:55,449 INFO     Visited 500 clips...
+2020-03-16 22:25:58,610 INFO     Visited 1000 clips...
+2020-03-16 22:26:01,886 INFO     Visited 1500 clips...
+2020-03-16 22:26:04,388 INFO     Exported 1895 of 1895 visited clips.
+2020-03-16 22:26:04,401 INFO     Job complete.

@@ -1,0 +1,28 @@
+2020-03-22 04:35:49,418 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Clip Album Commands/._Calls.yaml".
+2020-03-22 04:35:49,426 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Clip Album Commands/._Coarse.yaml".
+2020-03-22 04:35:49,432 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Clip Album Settings/._Resizing Clips, Labels Below.yaml".
+2020-03-22 04:35:49,435 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Detection Schedule/._Ithaca 2019.yaml".
+2020-03-22 04:35:49,437 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Station Name Aliases/._Station Name Aliases.yaml".
+2020-03-22 04:35:49,437 INFO     Job started for command "import" with arguments:
+2020-03-22 04:35:49,437 INFO         {
+2020-03-22 04:35:49,437 INFO             "importer": {
+2020-03-22 04:35:49,437 INFO                 "name": "Recording Importer",
+2020-03-22 04:35:49,437 INFO                 "arguments": {
+2020-03-22 04:35:49,437 INFO                     "paths": [
+2020-03-22 04:35:49,437 INFO                         "/Volumes/Erebus/msgr-vesper-archive/Recordings"
+2020-03-22 04:35:49,437 INFO                     ],
+2020-03-22 04:35:49,437 INFO                     "recursive": false,
+2020-03-22 04:35:49,437 INFO                     "recording_file_parser": {
+2020-03-22 04:35:49,437 INFO                         "name": "MPG Ranch Recording File Parser",
+2020-03-22 04:35:49,437 INFO                         "arguments": {
+2020-03-22 04:35:49,437 INFO                             "station_name_aliases_preset": "Station Name Aliases"
+2020-03-22 04:35:49,437 INFO                         }
+2020-03-22 04:35:49,437 INFO                     }
+2020-03-22 04:35:49,437 INFO                 }
+2020-03-22 04:35:49,437 INFO             }
+2020-03-22 04:35:49,437 INFO         }
+2020-03-22 04:35:49,552 INFO     Found 1 new recording and 12 old recordings at the specified paths.
+2020-03-22 04:35:49,552 INFO     The new recordings will be imported.
+2020-03-22 04:35:49,560 INFO     Imported recording MSGR / PC / start 2020-03-21 01:00:28+00:00 / duration 14.293 h with files:
+2020-03-22 04:35:49,560 INFO         MSGR_2020-03-21_01.00.28_Z.wav
+2020-03-22 04:35:49,563 INFO     Job complete.

@@ -1,0 +1,24 @@
+ui_names:
+    annotation_values:
+        Classification:
+            "-None-": Unclassified
+            "* | -None-": "* | Unclassified"
+
+
+default_presets:
+    Clip Album Settings: Resizing Clips, Labels Below
+    Clip Album Commands: Coarse
+
+
+calendar_defaults:
+    station_mic: MSGR / 21c
+    detector: Old Bird Tseep Detector Redux 1.1
+    classification: "Call*"
+
+
+form_defaults:
+    Import Recordings:
+        Recursive: false
+    Detect:
+        Schedule: Ithaca 2019
+        Defer clip creation: false

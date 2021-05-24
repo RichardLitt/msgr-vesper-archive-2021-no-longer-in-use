@@ -1,0 +1,20 @@
+2020-10-01 18:44:56,721 INFO     Job started for command "detect" with arguments:
+2020-10-01 18:44:56,722 INFO         {
+2020-10-01 18:44:56,722 INFO             "detectors": [
+2020-10-01 18:44:56,723 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-10-01 18:44:56,723 INFO             ],
+2020-10-01 18:44:56,724 INFO             "stations": [
+2020-10-01 18:44:56,724 INFO                 "MSGR"
+2020-10-01 18:44:56,725 INFO             ],
+2020-10-01 18:44:56,725 INFO             "start_date": "2020-09-30",
+2020-10-01 18:44:56,725 INFO             "end_date": "2020-10-06",
+2020-10-01 18:44:56,725 INFO             "schedule": "",
+2020-10-01 18:44:56,725 INFO             "defer_clip_creation": false
+2020-10-01 18:44:56,725 INFO         }
+2020-10-01 18:44:56,737 INFO     This command will process recordings for 1 station-night.
+2020-10-01 18:44:56,737 INFO     Processing recordings for station-night 1 of 1 - "MSGR 2020-09-30"...
+2020-10-01 18:44:56,739 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-10-01 00:08:00+00:00 / duration 9.050 h"...
+2020-10-01 18:44:56,749 INFO             Running detector on file "/Volumes/Erebus/msgr-vesper-archive/Recordings/MSGR_2020-10-01_00.08.00_Z.wav"...
+2020-10-01 18:46:17,488 INFO             Created 937 clips from detector "Old Bird Tseep Detector Redux 1.1".
+2020-10-01 18:46:17,488 INFO             Ran 1 detector on 32580 seconds of 1-channel audio in 81 seconds, 404 times faster than real time.
+2020-10-01 18:46:17,541 INFO     Job completed.

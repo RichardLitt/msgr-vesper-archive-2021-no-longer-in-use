@@ -1,0 +1,21 @@
+2020-03-31 10:51:34,433 INFO     Job started for command "import" with arguments:
+2020-03-31 10:51:34,433 INFO         {
+2020-03-31 10:51:34,434 INFO             "importer": {
+2020-03-31 10:51:34,434 INFO                 "name": "Recording Importer",
+2020-03-31 10:51:34,434 INFO                 "arguments": {
+2020-03-31 10:51:34,434 INFO                     "paths": [
+2020-03-31 10:51:34,434 INFO                         "/Volumes/Erebus/msgr-vesper-archive/Recordings"
+2020-03-31 10:51:34,434 INFO                     ],
+2020-03-31 10:51:34,434 INFO                     "recursive": false,
+2020-03-31 10:51:34,434 INFO                     "recording_file_parser": {
+2020-03-31 10:51:34,434 INFO                         "name": "MPG Ranch Recording File Parser",
+2020-03-31 10:51:34,434 INFO                         "arguments": {
+2020-03-31 10:51:34,434 INFO                             "station_name_aliases_preset": "Station Name Aliases"
+2020-03-31 10:51:34,434 INFO                         }
+2020-03-31 10:51:34,434 INFO                     }
+2020-03-31 10:51:34,434 INFO                 }
+2020-03-31 10:51:34,434 INFO             }
+2020-03-31 10:51:34,435 INFO         }
+2020-03-31 10:51:34,787 INFO     Found 0 new recordings and 23 old recordings at the specified paths.
+2020-03-31 10:51:34,787 INFO     No recordings will be imported.
+2020-03-31 10:51:34,793 INFO     Job completed.

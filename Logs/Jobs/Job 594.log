@@ -1,0 +1,27 @@
+2020-10-28 10:51:59,061 INFO     Job started for command "export" with arguments:
+2020-10-28 10:51:59,062 INFO         {
+2020-10-28 10:51:59,063 INFO             "exporter": {
+2020-10-28 10:51:59,068 INFO                 "name": "Clip Metadata CSV File Exporter",
+2020-10-28 10:51:59,072 INFO                 "arguments": {
+2020-10-28 10:51:59,072 INFO                     "output_file_path": "2020-10-26 tseep.csv"
+2020-10-28 10:51:59,072 INFO                 }
+2020-10-28 10:51:59,072 INFO             },
+2020-10-28 10:51:59,072 INFO             "detectors": [
+2020-10-28 10:51:59,072 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-10-28 10:51:59,072 INFO             ],
+2020-10-28 10:51:59,073 INFO             "station_mics": [
+2020-10-28 10:51:59,075 INFO                 "MSGR / 21c"
+2020-10-28 10:51:59,081 INFO             ],
+2020-10-28 10:51:59,081 INFO             "classification": "Call*",
+2020-10-28 10:51:59,081 INFO             "start_date": "2020-10-26",
+2020-10-28 10:51:59,081 INFO             "end_date": "2020-10-29"
+2020-10-28 10:51:59,082 INFO         }
+2020-10-28 10:51:59,125 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-26.
+2020-10-28 10:51:59,138 INFO     Exported 0 of 0 visited clips.
+2020-10-28 10:51:59,153 INFO     Exporter will visit 50 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-27.
+2020-10-28 10:51:59,618 INFO     Exported 50 of 50 visited clips.
+2020-10-28 10:51:59,622 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-28.
+2020-10-28 10:51:59,624 INFO     Exported 0 of 0 visited clips.
+2020-10-28 10:51:59,628 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-29.
+2020-10-28 10:51:59,629 INFO     Exported 0 of 0 visited clips.
+2020-10-28 10:51:59,644 INFO     Job completed.

@@ -1,0 +1,64 @@
+2020-03-12 09:10:30,605 INFO     Job started for command "classify" with arguments:
+2020-03-12 09:10:30,607 INFO         {
+2020-03-12 09:10:30,607 INFO             "classifier": "MPG Ranch NFC Coarse Classifier 3.0",
+2020-03-12 09:10:30,607 INFO             "annotation_name": "Classification",
+2020-03-12 09:10:30,607 INFO             "detectors": [
+2020-03-12 09:10:30,607 INFO                 "Old Bird Thrush Detector Redux 1.1"
+2020-03-12 09:10:30,608 INFO             ],
+2020-03-12 09:10:30,608 INFO             "station_mics": [
+2020-03-12 09:10:30,608 INFO                 "MSGR / 21c"
+2020-03-12 09:10:30,608 INFO             ],
+2020-03-12 09:10:30,608 INFO             "start_date": "2020-03-11",
+2020-03-12 09:10:30,608 INFO             "end_date": "2020-03-30"
+2020-03-12 09:10:30,608 INFO         }
+2020-03-12 09:10:30,620 INFO     Creating TensorFlow estimator from saved model in directory "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Tseep Classifier/TensorFlow SavedModel"...
+2020-03-12 09:10:35,711 WARNING  Using temporary folder as model directory: /var/folders/2z/dlxt5tt50nzdlqlx1qvr1zdm0000gn/T/tmpnqp1wd47
+2020-03-12 09:10:35,716 WARNING  train mode not found in SavedModel.
+2020-03-12 09:10:35,716 WARNING  eval mode not found in SavedModel.
+2020-03-12 09:10:35,716 INFO     Loading classifier settings from "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Tseep Classifier/Settings.yaml"...
+2020-03-12 09:10:35,726 INFO     Creating TensorFlow estimator from saved model in directory "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Thrush Classifier/TensorFlow SavedModel"...
+2020-03-12 09:10:35,728 WARNING  Using temporary folder as model directory: /var/folders/2z/dlxt5tt50nzdlqlx1qvr1zdm0000gn/T/tmp7d1s8rvz
+2020-03-12 09:10:35,731 WARNING  train mode not found in SavedModel.
+2020-03-12 09:10:35,732 WARNING  eval mode not found in SavedModel.
+2020-03-12 09:10:35,732 INFO     Loading classifier settings from "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Thrush Classifier/Settings.yaml"...
+2020-03-12 09:10:35,745 INFO     Classifier will visit 1587 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-11.
+2020-03-12 09:10:59,719 INFO     Classified 1587 of 1587 visited clips in 24.0 seconds, an average of 66.1 clips per second.
+2020-03-12 09:10:59,724 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-12.
+2020-03-12 09:10:59,725 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,727 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-13.
+2020-03-12 09:10:59,728 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,730 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-14.
+2020-03-12 09:10:59,733 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,735 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-15.
+2020-03-12 09:10:59,736 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,738 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-16.
+2020-03-12 09:10:59,739 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,740 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-17.
+2020-03-12 09:10:59,742 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,743 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-18.
+2020-03-12 09:10:59,745 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,747 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-19.
+2020-03-12 09:10:59,749 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,751 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-20.
+2020-03-12 09:10:59,753 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,754 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-21.
+2020-03-12 09:10:59,755 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,758 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-22.
+2020-03-12 09:10:59,759 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,761 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-23.
+2020-03-12 09:10:59,762 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,764 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-24.
+2020-03-12 09:10:59,765 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,767 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-25.
+2020-03-12 09:10:59,769 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,770 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-26.
+2020-03-12 09:10:59,771 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,773 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-27.
+2020-03-12 09:10:59,774 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,775 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-28.
+2020-03-12 09:10:59,777 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,778 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-29.
+2020-03-12 09:10:59,780 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,782 INFO     Classifier will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-03-30.
+2020-03-12 09:10:59,783 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-03-12 09:10:59,789 INFO     Job complete.

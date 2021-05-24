@@ -1,0 +1,23 @@
+2020-10-18 11:52:54,968 INFO     Job started for command "export" with arguments:
+2020-10-18 11:52:54,969 INFO         {
+2020-10-18 11:52:54,969 INFO             "exporter": {
+2020-10-18 11:52:54,970 INFO                 "name": "Clip Metadata CSV File Exporter",
+2020-10-18 11:52:54,970 INFO                 "arguments": {
+2020-10-18 11:52:54,970 INFO                     "output_file_path": "2020-10-17 tseep.csv"
+2020-10-18 11:52:54,970 INFO                 }
+2020-10-18 11:52:54,970 INFO             },
+2020-10-18 11:52:54,971 INFO             "detectors": [
+2020-10-18 11:52:54,972 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-10-18 11:52:54,973 INFO             ],
+2020-10-18 11:52:54,973 INFO             "station_mics": [
+2020-10-18 11:52:54,974 INFO                 "MSGR / 21c"
+2020-10-18 11:52:54,975 INFO             ],
+2020-10-18 11:52:54,976 INFO             "classification": "Call*",
+2020-10-18 11:52:54,979 INFO             "start_date": "2020-10-17",
+2020-10-18 11:52:54,979 INFO             "end_date": "2020-10-18"
+2020-10-18 11:52:54,980 INFO         }
+2020-10-18 11:52:55,002 INFO     Exporter will visit 112 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-17.
+2020-10-18 11:52:55,920 INFO     Exported 112 of 112 visited clips.
+2020-10-18 11:52:55,924 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-18.
+2020-10-18 11:52:55,925 INFO     Exported 0 of 0 visited clips.
+2020-10-18 11:52:55,944 INFO     Job completed.

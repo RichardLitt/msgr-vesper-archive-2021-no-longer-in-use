@@ -1,0 +1,39 @@
+2021-05-19 04:44:25,413 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/dataset_utils.py:25: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+2021-05-19 04:44:25,745 INFO     Job started for command "import" with arguments:
+2021-05-19 04:44:25,745 INFO         {
+2021-05-19 04:44:25,745 INFO             "importer": {
+2021-05-19 04:44:25,745 INFO                 "name": "Metadata Importer",
+2021-05-19 04:44:25,745 INFO                 "arguments": {
+2021-05-19 04:44:25,746 INFO                     "metadata": {
+2021-05-19 04:44:25,746 INFO                         "ui_names": {
+2021-05-19 04:44:25,746 INFO                             "annotation_values": {
+2021-05-19 04:44:25,746 INFO                                 "Classification": {
+2021-05-19 04:44:25,746 INFO                                     "-None-": "Unclassified",
+2021-05-19 04:44:25,746 INFO                                     "* | -None-": "* | Unclassified"
+2021-05-19 04:44:25,746 INFO                                 }
+2021-05-19 04:44:25,746 INFO                             }
+2021-05-19 04:44:25,746 INFO                         },
+2021-05-19 04:44:25,746 INFO                         "default_presets": {
+2021-05-19 04:44:25,746 INFO                             "Clip Album Settings": "Resizing Clips, Labels Below",
+2021-05-19 04:44:25,746 INFO                             "Clip Album Commands": "Coarse"
+2021-05-19 04:44:25,746 INFO                         },
+2021-05-19 04:44:25,746 INFO                         "calendar_defaults": {
+2021-05-19 04:44:25,746 INFO                             "station_mic": "MSGR / 21c",
+2021-05-19 04:44:25,746 INFO                             "detector": "Old Bird Tseep Detector Redux 1.1",
+2021-05-19 04:44:25,746 INFO                             "classification": "Call*"
+2021-05-19 04:44:25,746 INFO                         },
+2021-05-19 04:44:25,746 INFO                         "form_defaults": {
+2021-05-19 04:44:25,746 INFO                             "Import Recordings": {
+2021-05-19 04:44:25,746 INFO                                 "Recursive": false
+2021-05-19 04:44:25,746 INFO                             },
+2021-05-19 04:44:25,746 INFO                             "Detect": {
+2021-05-19 04:44:25,746 INFO                                 "Schedule": "Ithaca 2020",
+2021-05-19 04:44:25,746 INFO                                 "Defer clip creation": false
+2021-05-19 04:44:25,746 INFO                             }
+2021-05-19 04:44:25,746 INFO                         }
+2021-05-19 04:44:25,746 INFO                     }
+2021-05-19 04:44:25,746 INFO                 }
+2021-05-19 04:44:25,746 INFO             }
+2021-05-19 04:44:25,746 INFO         }
+2021-05-19 04:44:25,754 INFO     Job completed.

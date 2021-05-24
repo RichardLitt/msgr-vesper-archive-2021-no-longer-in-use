@@ -1,0 +1,45 @@
+2020-09-07 18:06:59,138 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/dataset_utils.py:25: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+2020-09-07 18:06:59,732 INFO     Job started for command "export" with arguments:
+2020-09-07 18:06:59,733 INFO         {
+2020-09-07 18:06:59,733 INFO             "exporter": {
+2020-09-07 18:06:59,733 INFO                 "name": "Clip Metadata CSV File Exporter",
+2020-09-07 18:06:59,733 INFO                 "arguments": {
+2020-09-07 18:06:59,733 INFO                     "output_file_path": "2020-09 Output.csv"
+2020-09-07 18:06:59,733 INFO                 }
+2020-09-07 18:06:59,734 INFO             },
+2020-09-07 18:06:59,734 INFO             "detectors": [
+2020-09-07 18:06:59,734 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-09-07 18:06:59,734 INFO             ],
+2020-09-07 18:06:59,736 INFO             "station_mics": [
+2020-09-07 18:06:59,736 INFO                 "MSGR / 21c"
+2020-09-07 18:06:59,736 INFO             ],
+2020-09-07 18:06:59,736 INFO             "classification": "Call*",
+2020-09-07 18:06:59,736 INFO             "start_date": "2020-09-01",
+2020-09-07 18:06:59,736 INFO             "end_date": "2020-09-10"
+2020-09-07 18:06:59,736 INFO         }
+2020-09-07 18:06:59,757 INFO     Exporter will visit 189 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-01.
+2020-09-07 18:07:01,186 INFO     Exported 189 of 189 visited clips.
+2020-09-07 18:07:01,205 INFO     Exporter will visit 10 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-02.
+2020-09-07 18:07:01,365 INFO     Exported 10 of 10 visited clips.
+2020-09-07 18:07:01,379 INFO     Exporter will visit 832 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-03.
+2020-09-07 18:07:04,976 INFO     Visited 500 clips...
+2020-09-07 18:07:07,575 INFO     Exported 832 of 832 visited clips.
+2020-09-07 18:07:07,588 INFO     Exporter will visit 927 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-04.
+2020-09-07 18:07:11,286 INFO     Visited 500 clips...
+2020-09-07 18:07:14,465 INFO     Exported 927 of 927 visited clips.
+2020-09-07 18:07:14,479 INFO     Exporter will visit 1115 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-05.
+2020-09-07 18:07:17,981 INFO     Visited 500 clips...
+2020-09-07 18:07:21,555 INFO     Visited 1000 clips...
+2020-09-07 18:07:22,388 INFO     Exported 1115 of 1115 visited clips.
+2020-09-07 18:07:22,398 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-06.
+2020-09-07 18:07:22,399 INFO     Exported 0 of 0 visited clips.
+2020-09-07 18:07:22,403 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-07.
+2020-09-07 18:07:22,404 INFO     Exported 0 of 0 visited clips.
+2020-09-07 18:07:22,408 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-08.
+2020-09-07 18:07:22,409 INFO     Exported 0 of 0 visited clips.
+2020-09-07 18:07:22,412 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-09.
+2020-09-07 18:07:22,414 INFO     Exported 0 of 0 visited clips.
+2020-09-07 18:07:22,417 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-10.
+2020-09-07 18:07:22,418 INFO     Exported 0 of 0 visited clips.
+2020-09-07 18:07:22,431 INFO     Job completed.

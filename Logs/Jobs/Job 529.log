@@ -1,0 +1,25 @@
+2020-10-06 22:18:47,007 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/dataset_utils.py:25: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+2020-10-06 22:18:47,525 INFO     Job started for command "export" with arguments:
+2020-10-06 22:18:47,525 INFO         {
+2020-10-06 22:18:47,525 INFO             "exporter": {
+2020-10-06 22:18:47,525 INFO                 "name": "Clip Metadata CSV File Exporter",
+2020-10-06 22:18:47,526 INFO                 "arguments": {
+2020-10-06 22:18:47,526 INFO                     "output_file_path": "2020-10-02.csv"
+2020-10-06 22:18:47,526 INFO                 }
+2020-10-06 22:18:47,526 INFO             },
+2020-10-06 22:18:47,526 INFO             "detectors": [
+2020-10-06 22:18:47,526 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-10-06 22:18:47,526 INFO             ],
+2020-10-06 22:18:47,526 INFO             "station_mics": [
+2020-10-06 22:18:47,526 INFO                 "MSGR / 21c"
+2020-10-06 22:18:47,526 INFO             ],
+2020-10-06 22:18:47,526 INFO             "classification": "Call*",
+2020-10-06 22:18:47,526 INFO             "start_date": "2020-10-02",
+2020-10-06 22:18:47,526 INFO             "end_date": "2020-10-03"
+2020-10-06 22:18:47,526 INFO         }
+2020-10-06 22:18:47,560 INFO     Exporter will visit 6 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-02.
+2020-10-06 22:18:47,616 INFO     Exported 6 of 6 visited clips.
+2020-10-06 22:18:47,659 INFO     Exporter will visit 46 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-03.
+2020-10-06 22:18:48,024 INFO     Exported 46 of 46 visited clips.
+2020-10-06 22:18:48,035 INFO     Job completed.

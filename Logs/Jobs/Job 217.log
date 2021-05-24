@@ -1,0 +1,33 @@
+2020-05-13 19:04:49,399 INFO     Job started for command "create_clip_audio_files" with arguments:
+2020-05-13 19:04:49,399 INFO         {
+2020-05-13 19:04:49,400 INFO             "detectors": [
+2020-05-13 19:04:49,400 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-05-13 19:04:49,401 INFO             ],
+2020-05-13 19:04:49,401 INFO             "station_mics": [
+2020-05-13 19:04:49,401 INFO                 "MSGR / 21c"
+2020-05-13 19:04:49,402 INFO             ],
+2020-05-13 19:04:49,402 INFO             "classification": "Unclassified",
+2020-05-13 19:04:49,402 INFO             "start_date": "2020-05-12",
+2020-05-13 19:04:49,402 INFO             "end_date": "2020-05-30"
+2020-05-13 19:04:49,402 INFO         }
+2020-05-13 19:04:49,598 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-12.
+2020-05-13 19:04:49,603 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-13.
+2020-05-13 19:04:49,607 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-14.
+2020-05-13 19:04:49,611 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-15.
+2020-05-13 19:04:49,615 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-16.
+2020-05-13 19:04:49,622 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-17.
+2020-05-13 19:04:49,628 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-18.
+2020-05-13 19:04:49,634 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-19.
+2020-05-13 19:04:49,638 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-20.
+2020-05-13 19:04:49,643 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-21.
+2020-05-13 19:04:49,647 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-22.
+2020-05-13 19:04:49,652 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-23.
+2020-05-13 19:04:49,657 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-24.
+2020-05-13 19:04:49,660 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-25.
+2020-05-13 19:04:49,664 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-26.
+2020-05-13 19:04:49,669 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-27.
+2020-05-13 19:04:49,676 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-28.
+2020-05-13 19:04:49,680 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-29.
+2020-05-13 19:04:49,686 INFO     Created audio files for 0 of 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-30.
+2020-05-13 19:04:49,686 INFO     Processed a total of 0 clips in 0.3 seconds, an average of 0.0 clips per second.
+2020-05-13 19:04:49,697 INFO     Job completed.

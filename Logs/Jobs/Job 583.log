@@ -1,0 +1,39 @@
+2020-10-26 10:29:20,985 INFO     Job started for command "export" with arguments:
+2020-10-26 10:29:20,986 INFO         {
+2020-10-26 10:29:20,986 INFO             "exporter": {
+2020-10-26 10:29:20,989 INFO                 "name": "Clip Metadata CSV File Exporter",
+2020-10-26 10:29:20,989 INFO                 "arguments": {
+2020-10-26 10:29:20,989 INFO                     "output_file_path": "2020-10-21 thrush.csv"
+2020-10-26 10:29:20,989 INFO                 }
+2020-10-26 10:29:20,989 INFO             },
+2020-10-26 10:29:20,990 INFO             "detectors": [
+2020-10-26 10:29:20,990 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-10-26 10:29:20,990 INFO             ],
+2020-10-26 10:29:20,990 INFO             "station_mics": [
+2020-10-26 10:29:20,990 INFO                 "MSGR / 21c"
+2020-10-26 10:29:20,990 INFO             ],
+2020-10-26 10:29:20,990 INFO             "classification": "Call*",
+2020-10-26 10:29:20,990 INFO             "start_date": "2020-10-21",
+2020-10-26 10:29:20,990 INFO             "end_date": "2020-10-30"
+2020-10-26 10:29:20,990 INFO         }
+2020-10-26 10:29:21,043 INFO     Exporter will visit 57 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-21.
+2020-10-26 10:29:21,579 INFO     Exported 57 of 57 visited clips.
+2020-10-26 10:29:21,585 INFO     Exporter will visit 289 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-22.
+2020-10-26 10:29:23,779 INFO     Exported 289 of 289 visited clips.
+2020-10-26 10:29:23,785 INFO     Exporter will visit 12 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-23.
+2020-10-26 10:29:23,873 INFO     Exported 12 of 12 visited clips.
+2020-10-26 10:29:23,882 INFO     Exporter will visit 64 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-24.
+2020-10-26 10:29:24,349 INFO     Exported 64 of 64 visited clips.
+2020-10-26 10:29:24,355 INFO     Exporter will visit 39 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-25.
+2020-10-26 10:29:24,668 INFO     Exported 39 of 39 visited clips.
+2020-10-26 10:29:24,672 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-26.
+2020-10-26 10:29:24,673 INFO     Exported 0 of 0 visited clips.
+2020-10-26 10:29:24,677 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-27.
+2020-10-26 10:29:24,678 INFO     Exported 0 of 0 visited clips.
+2020-10-26 10:29:24,683 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-28.
+2020-10-26 10:29:24,684 INFO     Exported 0 of 0 visited clips.
+2020-10-26 10:29:24,688 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-29.
+2020-10-26 10:29:24,689 INFO     Exported 0 of 0 visited clips.
+2020-10-26 10:29:24,693 INFO     Exporter will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-30.
+2020-10-26 10:29:24,695 INFO     Exported 0 of 0 visited clips.
+2020-10-26 10:29:24,717 INFO     Job completed.

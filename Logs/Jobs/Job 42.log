@@ -1,0 +1,15 @@
+2020-03-12 09:01:46,359 INFO     Job started for command "detect" with arguments:
+2020-03-12 09:01:46,360 INFO         {
+2020-03-12 09:01:46,360 INFO             "detectors": [
+2020-03-12 09:01:46,361 INFO                 "Old Bird Thrush Detector Redux 1.1"
+2020-03-12 09:01:46,361 INFO             ],
+2020-03-12 09:01:46,361 INFO             "stations": [
+2020-03-12 09:01:46,363 INFO                 "MSGR"
+2020-03-12 09:01:46,365 INFO             ],
+2020-03-12 09:01:46,365 INFO             "start_date": "2020-03-12",
+2020-03-12 09:01:46,366 INFO             "end_date": "2020-03-30",
+2020-03-12 09:01:46,366 INFO             "schedule": "",
+2020-03-12 09:01:46,366 INFO             "defer_clip_creation": false
+2020-03-12 09:01:46,366 INFO         }
+2020-03-12 09:01:46,372 INFO     This command will process recordings for 0 station-nights.
+2020-03-12 09:01:46,376 INFO     Job complete.

@@ -1,0 +1,24 @@
+2020-09-09 11:30:37,284 INFO     Job started for command "detect" with arguments:
+2020-09-09 11:30:37,284 INFO         {
+2020-09-09 11:30:37,285 INFO             "detectors": [
+2020-09-09 11:30:37,286 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-09-09 11:30:37,288 INFO             ],
+2020-09-09 11:30:37,289 INFO             "stations": [
+2020-09-09 11:30:37,290 INFO                 "MSGR"
+2020-09-09 11:30:37,290 INFO             ],
+2020-09-09 11:30:37,290 INFO             "start_date": "2020-09-08",
+2020-09-09 11:30:37,290 INFO             "end_date": "2020-09-10",
+2020-09-09 11:30:37,290 INFO             "schedule": "",
+2020-09-09 11:30:37,290 INFO             "defer_clip_creation": false
+2020-09-09 11:30:37,290 INFO         }
+2020-09-09 11:30:37,318 INFO     This command will process recordings for 1 station-night.
+2020-09-09 11:30:37,319 INFO     Processing recordings for station-night 1 of 1 - "MSGR 2020-09-08"...
+2020-09-09 11:30:37,322 INFO         Processing recording 1 of 2 - "MSGR / PC / start 2020-09-09 00:43:00+00:00 / duration 0.139 h"...
+2020-09-09 11:30:37,329 INFO             Running detector on file "/Volumes/Erebus/msgr-vesper-archive/Recordings/MSGR_2020-09-09_00.43.00_Z.wav"...
+2020-09-09 11:30:39,089 INFO             Created 57 clips from detector "Old Bird Tseep Detector Redux 1.1".
+2020-09-09 11:30:39,090 INFO             Ran 1 detector on 501 seconds of 1-channel audio in 1.8 seconds, 285 times faster than real time.
+2020-09-09 11:30:39,092 INFO         Processing recording 2 of 2 - "MSGR / PC / start 2020-09-09 00:53:00+00:00 / duration 7.817 h"...
+2020-09-09 11:30:39,094 INFO             Running detector on file "/Volumes/Erebus/msgr-vesper-archive/Recordings/MSGR_2020-09-09_00.53.00_Z.wav"...
+2020-09-09 11:31:46,594 INFO             Created 2291 clips from detector "Old Bird Tseep Detector Redux 1.1".
+2020-09-09 11:31:46,594 INFO             Ran 1 detector on 28140 seconds of 1-channel audio in 68 seconds, 417 times faster than real time.
+2020-09-09 11:31:46,638 INFO     Job completed.

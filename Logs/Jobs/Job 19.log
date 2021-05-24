@@ -1,0 +1,11 @@
+2020-03-10 11:31:47,659 INFO     Job started for command "delete_recordings" with arguments:
+2020-03-10 11:31:47,660 INFO         {
+2020-03-10 11:31:47,661 INFO             "stations": [
+2020-03-10 11:31:47,662 INFO                 "MSGR"
+2020-03-10 11:31:47,663 INFO             ],
+2020-03-10 11:31:47,664 INFO             "start_date": "2020-01-01",
+2020-03-10 11:31:47,664 INFO             "end_date": "2020-03-30"
+2020-03-10 11:31:47,664 INFO         }
+2020-03-10 11:31:47,673 INFO     Deleting recording "MSGR / PC / start 2020-03-04 21:36:23+00:00 / duration 6.874 h"...
+2020-03-10 11:31:48,130 INFO     Deleting recording "MSGR / PC / start 2020-03-08 20:30:00+00:00 / duration 8.999 h"...
+2020-03-10 11:31:48,447 INFO     Job complete.

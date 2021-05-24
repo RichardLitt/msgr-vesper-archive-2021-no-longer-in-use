@@ -1,0 +1,30 @@
+2020-10-17 12:27:38,939 INFO     Job started for command "detect" with arguments:
+2020-10-17 12:27:38,940 INFO         {
+2020-10-17 12:27:38,940 INFO             "detectors": [
+2020-10-17 12:27:38,940 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-10-17 12:27:38,941 INFO             ],
+2020-10-17 12:27:38,942 INFO             "stations": [
+2020-10-17 12:27:38,943 INFO                 "MSGR"
+2020-10-17 12:27:38,943 INFO             ],
+2020-10-17 12:27:38,944 INFO             "start_date": "2020-10-14",
+2020-10-17 12:27:38,944 INFO             "end_date": "2020-10-20",
+2020-10-17 12:27:38,945 INFO             "schedule": "",
+2020-10-17 12:27:38,945 INFO             "defer_clip_creation": false
+2020-10-17 12:27:38,946 INFO         }
+2020-10-17 12:27:38,959 INFO     This command will process recordings for 3 station-nights.
+2020-10-17 12:27:38,959 INFO     Processing recordings for station-night 1 of 3 - "MSGR 2020-10-14"...
+2020-10-17 12:27:38,965 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-10-14 23:43:00+00:00 / duration 9.767 h"...
+2020-10-17 12:27:38,973 INFO             Running detector on file "/Volumes/Erebus/msgr-vesper-archive/Recordings/MSGR_2020-10-14_23.43.00_Z.wav"...
+2020-10-17 12:29:03,773 INFO             Created 960 clips from detector "Old Bird Tseep Detector Redux 1.1".
+2020-10-17 12:29:03,774 INFO             Ran 1 detector on 35160 seconds of 1-channel audio in 85 seconds, 415 times faster than real time.
+2020-10-17 12:29:03,817 INFO     Processing recordings for station-night 2 of 3 - "MSGR 2020-10-15"...
+2020-10-17 12:29:03,819 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-10-15 23:43:00+00:00 / duration 9.767 h"...
+2020-10-17 12:29:03,821 INFO             Running detector on file "/Volumes/Erebus/msgr-vesper-archive/Recordings/MSGR_2020-10-15_23.43.00_Z.wav"...
+2020-10-17 12:30:30,604 INFO             Created 1366 clips from detector "Old Bird Tseep Detector Redux 1.1".
+2020-10-17 12:30:30,604 INFO             Ran 1 detector on 35160 seconds of 1-channel audio in 87 seconds, 405 times faster than real time.
+2020-10-17 12:30:30,648 INFO     Processing recordings for station-night 3 of 3 - "MSGR 2020-10-16"...
+2020-10-17 12:30:30,650 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-10-16 23:43:00+00:00 / duration 9.767 h"...
+2020-10-17 12:30:30,652 INFO             Running detector on file "/Volumes/Erebus/msgr-vesper-archive/Recordings/MSGR_2020-10-16_23.43.00_Z.wav"...
+2020-10-17 12:32:04,185 INFO             Created 4746 clips from detector "Old Bird Tseep Detector Redux 1.1".
+2020-10-17 12:32:04,185 INFO             Ran 1 detector on 35160 seconds of 1-channel audio in 94 seconds, 376 times faster than real time.
+2020-10-17 12:32:04,236 INFO     Job completed.

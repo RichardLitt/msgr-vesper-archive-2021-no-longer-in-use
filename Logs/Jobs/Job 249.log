@@ -1,0 +1,63 @@
+2020-05-27 08:28:59,298 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/dataset_utils.py:25: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+2020-05-27 08:28:59,861 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Clip Album Commands/._Calls.yaml".
+2020-05-27 08:28:59,871 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Clip Album Commands/._Coarse.yaml".
+2020-05-27 08:28:59,880 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Clip Album Settings/._Resizing Clips, Labels Below.yaml".
+2020-05-27 08:28:59,886 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Detection Schedule/._Ithaca 2019.yaml".
+2020-05-27 08:28:59,888 ERROR    Preset manager could not read preset file "/Volumes/Erebus/msgr-vesper-archive/Presets/Station Name Aliases/._Station Name Aliases.yaml".
+2020-05-27 08:28:59,888 INFO     Job started for command "import" with arguments:
+2020-05-27 08:28:59,888 INFO         {
+2020-05-27 08:28:59,888 INFO             "importer": {
+2020-05-27 08:28:59,888 INFO                 "name": "Recording Importer",
+2020-05-27 08:28:59,888 INFO                 "arguments": {
+2020-05-27 08:28:59,889 INFO                     "paths": [
+2020-05-27 08:28:59,889 INFO                         "/Volumes/Erebus/msgr-vesper-archive/Recordings"
+2020-05-27 08:28:59,889 INFO                     ],
+2020-05-27 08:28:59,889 INFO                     "recursive": false,
+2020-05-27 08:28:59,889 INFO                     "recording_file_parser": {
+2020-05-27 08:28:59,889 INFO                         "name": "MPG Ranch Recording File Parser",
+2020-05-27 08:28:59,889 INFO                         "arguments": {
+2020-05-27 08:28:59,889 INFO                             "station_name_aliases_preset": "Station Name Aliases"
+2020-05-27 08:28:59,889 INFO                         }
+2020-05-27 08:28:59,889 INFO                     }
+2020-05-27 08:28:59,889 INFO                 }
+2020-05-27 08:28:59,889 INFO             }
+2020-05-27 08:28:59,889 INFO         }
+2020-05-27 08:29:00,393 ERROR    Recording import failed with an exception.
+The exception message was:
+    Error parsing recording file "/Volumes/Erebus/msgr-vesper-archive/Recordings/1.wav": Could not parse file name.
+The archive was not modified.
+See below for exception traceback.
+2020-05-27 08:29:00,402 ERROR    Job failed with an exception. See traceback below.
+Traceback (most recent call last):
+  File "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 192, in _parse_recording_file
+    file = self.file_parser.parse_file(str(file_path))
+  File "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/recording_file_parser.py", line 525, in parse_file
+    self._parse_file_name(file_path)
+  File "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/recording_file_parser.py", line 555, in _parse_file_name
+    raise ValueError('Could not parse file name.')
+ValueError: Could not parse file name.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/job_runner.py", line 145, in run_job
+    complete = command.execute(info)
+  File "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/import_command.py", line 22, in execute
+    return self._importer.execute(context)
+  File "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 57, in execute
+    recordings = self._get_recordings()
+  File "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 84, in _get_recordings
+    self._get_path_recording_files(path) for path in self.paths))
+  File "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 84, in <genexpr>
+    self._get_path_recording_files(path) for path in self.paths))
+  File "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 91, in _get_path_recording_files
+    return self._get_dir_recording_files(path)
+  File "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 106, in _get_dir_recording_files
+    file = self._get_recording_file(Path(file_path))
+  File "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 125, in _get_recording_file
+    file = self._parse_recording_file(abs_path)
+  File "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/command/recording_importer.py", line 197, in _parse_recording_file
+    file_path, str(e)))
+vesper.command.command.CommandExecutionError: Error parsing recording file "/Volumes/Erebus/msgr-vesper-archive/Recordings/1.wav": Could not parse file name.
+

@@ -1,0 +1,29 @@
+2020-03-23 09:40:59,791 INFO     Job started for command "import" with arguments:
+2020-03-23 09:40:59,792 INFO         {
+2020-03-23 09:40:59,793 INFO             "importer": {
+2020-03-23 09:40:59,793 INFO                 "name": "Recording Importer",
+2020-03-23 09:40:59,793 INFO                 "arguments": {
+2020-03-23 09:40:59,793 INFO                     "paths": [
+2020-03-23 09:40:59,793 INFO                         "/Volumes/Erebus/msgr-vesper-archive/Recordings"
+2020-03-23 09:40:59,794 INFO                     ],
+2020-03-23 09:40:59,794 INFO                     "recursive": false,
+2020-03-23 09:40:59,794 INFO                     "recording_file_parser": {
+2020-03-23 09:40:59,794 INFO                         "name": "MPG Ranch Recording File Parser",
+2020-03-23 09:40:59,795 INFO                         "arguments": {
+2020-03-23 09:40:59,795 INFO                             "station_name_aliases_preset": "Station Name Aliases"
+2020-03-23 09:40:59,795 INFO                         }
+2020-03-23 09:40:59,796 INFO                     }
+2020-03-23 09:40:59,797 INFO                 }
+2020-03-23 09:40:59,797 INFO             }
+2020-03-23 09:40:59,798 INFO         }
+2020-03-23 09:41:00,019 INFO     Found 4 new recordings and 12 old recordings at the specified paths.
+2020-03-23 09:41:00,019 INFO     The new recordings will be imported.
+2020-03-23 09:41:00,031 INFO     Imported recording MSGR / PC / start 2020-03-21 01:00:28+00:00 / duration 14.293 h with files:
+2020-03-23 09:41:00,031 INFO         MSGR_2020-03-21_01.00.28_Z.wav
+2020-03-23 09:41:00,031 INFO     Imported recording MSGR / PC / start 2020-03-22 00:15:17+00:00 / duration 1.587 h with files:
+2020-03-23 09:41:00,032 INFO         MSGR_2020-03-22_00.15.17_Z.wav
+2020-03-23 09:41:00,032 INFO     Imported recording MSGR / PC / start 2020-03-22 03:50:33+00:00 / duration 5.656 h with files:
+2020-03-23 09:41:00,033 INFO         MSGR_2020-03-22_03.50.33_Z.wav
+2020-03-23 09:41:00,033 INFO     Imported recording MSGR / PC / start 2020-03-23 00:30:00+00:00 / duration 8.999 h with files:
+2020-03-23 09:41:00,033 INFO         MSGR_2020-03-23_00.30.00_Z.wav
+2020-03-23 09:41:00,037 INFO     Job completed.

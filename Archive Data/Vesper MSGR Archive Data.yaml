@@ -1,0 +1,147 @@
+stations:
+
+    - name: MSGR
+      description: >
+          Monsignor Crosby station
+      time_zone: US/Eastern
+      latitude: 44.258040
+      longitude: -72.574440
+      elevation: 175
+
+device_models:
+
+    - name: PC Recorder
+      type: Audio Recorder
+      manufacturer: Various
+      model: PC
+      description: Personal computer as an audio recorder.
+      num_inputs: 2
+
+    - name: 21c Microphone
+      type: Microphone
+      manufacturer: Old Bird
+      model: 21c
+      description: ""
+      num_outputs: 1
+
+devices:
+
+    - name: PC
+      model: PC Recorder
+      serial_number: 0
+      description: Recorder used at the station of this archive.
+
+    - name: 21c
+      model: 21c Microphone
+      serial_number: 0
+      description: Microphone used at the station of this archive.
+
+station_devices:
+
+    - station: MSGR
+      start_time: 2020-01-01
+      end_time: 2022-01-01
+      devices:
+          - PC
+          - 21c
+      connections:
+          - output: 21c Output
+            input: PC Input 0
+
+detectors:
+
+    - name: Old Bird Thrush Detector Redux 1.1
+      description: Vesper reimplementation of Old Bird Thrush detector.
+
+    - name: Old Bird Tseep Detector Redux 1.1
+      description: Vesper reimplementation of Old Bird Tseep detector.
+
+classifiers:
+
+    - name: MPG Ranch NFC Coarse Classifier 3.0
+      description: >
+          Classifies an unclassified clip as a "Call" if it appears to be
+          a nocturnal flight call, or as a "Noise" otherwise. Does not
+          classify a clip that has already been classified, whether
+          manually or automatically.
+
+annotation_constraints:
+
+    - name: Coarse Classification
+      description: Coarse classifications only.
+      type: Values
+      values:
+          - Call
+          - Noise
+          - Tone
+          - Other
+          - Unknown
+
+    - name: Classification
+      description: All classifications, including call subclassifications.
+      type: Hierarchical Values
+      extends: Coarse Classification
+      values:
+          - Call:
+              - AMCO
+              - AMPI
+              - AMRE
+              - AMRO
+              - ATSP
+              - BAWW
+              - BBWA
+              - BHGR
+              - BTBW
+              - CAWA
+              - CMWA
+              - CHSP
+              - COYE
+              - DBUP
+              - DEJU
+              - GCKI
+              - GCTH_BICK
+              - GRSP
+              - GRYE
+              - HETH
+              - High
+              - HOLA
+              - LALO
+              - LBCU
+              - LISP
+              - Low
+              - MGWA
+              - NOPA
+              - NOWA
+              - OVEN
+              - Other
+              - Peep
+              - SAVS
+              - SORA
+              - SCTA
+              - SOSP
+              - SPSA_SOSA
+              - SWTH
+              - SWSP
+              - UPSA
+              - Unknown
+              - VEER
+              - VESP
+              - VIRA
+              - WCSP
+              - WEME
+              - WETA
+              - WIWA
+              - WOTH
+              - WTSP
+              - Weak
+              - YRWA
+              - Zeep
+
+annotations:
+
+    - name: Detector Score
+      type: String
+
+    - name: Classification
+      type: String
+      constraint: Classification

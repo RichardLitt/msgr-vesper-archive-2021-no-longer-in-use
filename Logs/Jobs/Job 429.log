@@ -1,0 +1,23 @@
+2020-09-13 21:46:34,887 INFO     Job started for command "export" with arguments:
+2020-09-13 21:46:34,889 INFO         {
+2020-09-13 21:46:34,889 INFO             "exporter": {
+2020-09-13 21:46:34,893 INFO                 "name": "Clip Metadata CSV File Exporter",
+2020-09-13 21:46:34,894 INFO                 "arguments": {
+2020-09-13 21:46:34,896 INFO                     "output_file_path": "2020-09-12 thrush.csv"
+2020-09-13 21:46:34,901 INFO                 }
+2020-09-13 21:46:34,903 INFO             },
+2020-09-13 21:46:34,922 INFO             "detectors": [
+2020-09-13 21:46:34,924 INFO                 "Old Bird Thrush Detector Redux 1.1"
+2020-09-13 21:46:34,928 INFO             ],
+2020-09-13 21:46:34,930 INFO             "station_mics": [
+2020-09-13 21:46:34,936 INFO                 "MSGR / 21c"
+2020-09-13 21:46:34,936 INFO             ],
+2020-09-13 21:46:34,936 INFO             "classification": "Call*",
+2020-09-13 21:46:34,936 INFO             "start_date": "2020-09-12",
+2020-09-13 21:46:34,936 INFO             "end_date": "2020-09-13"
+2020-09-13 21:46:34,936 INFO         }
+2020-09-13 21:46:34,983 INFO     Exporter will visit 24 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-12.
+2020-09-13 21:46:35,304 INFO     Exported 24 of 24 visited clips.
+2020-09-13 21:46:35,308 INFO     Exporter will visit 0 clips for detector "Old Bird Thrush Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-13.
+2020-09-13 21:46:35,310 INFO     Exported 0 of 0 visited clips.
+2020-09-13 21:46:35,325 INFO     Job completed.

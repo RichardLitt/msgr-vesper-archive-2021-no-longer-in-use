@@ -1,0 +1,477 @@
+2020-06-01 09:59:57,870 INFO     Job started for command "classify" with arguments:
+2020-06-01 09:59:57,871 INFO         {
+2020-06-01 09:59:57,872 INFO             "classifier": "MPG Ranch NFC Coarse Classifier 3.0",
+2020-06-01 09:59:57,873 INFO             "annotation_name": "Classification",
+2020-06-01 09:59:57,874 INFO             "detectors": [
+2020-06-01 09:59:57,874 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-06-01 09:59:57,874 INFO             ],
+2020-06-01 09:59:57,874 INFO             "station_mics": [
+2020-06-01 09:59:57,874 INFO                 "MSGR / 21c"
+2020-06-01 09:59:57,874 INFO             ],
+2020-06-01 09:59:57,874 INFO             "start_date": "2020-05-28",
+2020-06-01 09:59:57,874 INFO             "end_date": "2020-12-30"
+2020-06-01 09:59:57,874 INFO         }
+2020-06-01 09:59:57,893 INFO     Creating TensorFlow estimator from saved model in directory "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Tseep Classifier/TensorFlow SavedModel"...
+2020-06-01 09:59:57,895 WARNING  
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+2020-06-01 09:59:58,514 WARNING  Using temporary folder as model directory: /var/folders/2z/dlxt5tt50nzdlqlx1qvr1zdm0000gn/T/tmp8eid6wxk
+2020-06-01 09:59:58,519 WARNING  train mode not found in SavedModel.
+2020-06-01 09:59:58,519 WARNING  eval mode not found in SavedModel.
+2020-06-01 09:59:58,519 INFO     Loading classifier settings from "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Tseep Classifier/Settings.yaml"...
+2020-06-01 09:59:58,535 INFO     Creating TensorFlow estimator from saved model in directory "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Thrush Classifier/TensorFlow SavedModel"...
+2020-06-01 09:59:58,538 WARNING  Using temporary folder as model directory: /var/folders/2z/dlxt5tt50nzdlqlx1qvr1zdm0000gn/T/tmpx23zt9di
+2020-06-01 09:59:58,542 WARNING  train mode not found in SavedModel.
+2020-06-01 09:59:58,542 WARNING  eval mode not found in SavedModel.
+2020-06-01 09:59:58,542 INFO     Loading classifier settings from "/Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/vesper/mpg_ranch/nfc_coarse_classifier_3_0/Thrush Classifier/Settings.yaml"...
+2020-06-01 09:59:58,565 INFO     Classifier will visit 1984 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-28.
+2020-06-01 10:00:23,159 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.real is deprecated. Please use tf.math.real instead.
+
+2020-06-01 10:00:23,160 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.conj is deprecated. Please use tf.math.conj instead.
+
+2020-06-01 10:00:23,160 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.log is deprecated. Please use tf.math.log instead.
+
+2020-06-01 10:00:23,435 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.Dimension is deprecated. Please use tf.compat.v1.Dimension instead.
+
+2020-06-01 10:00:23,843 WARNING  From /Users/richard/miniconda3/envs/vesper-0.4.8/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py:1475: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-06-01 10:00:43,022 INFO     Classified 1984 of 1984 visited clips in 44.5 seconds, an average of 44.6 clips per second.
+2020-06-01 10:00:43,031 INFO     Classifier will visit 1970 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-29.
+2020-06-01 10:01:29,796 INFO     Classified 1970 of 1970 visited clips in 46.8 seconds, an average of 42.1 clips per second.
+2020-06-01 10:01:29,805 INFO     Classifier will visit 1995 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-30.
+2020-06-01 10:02:11,385 INFO     Classified 1995 of 1995 visited clips in 41.6 seconds, an average of 48.0 clips per second.
+2020-06-01 10:02:11,394 INFO     Classifier will visit 911 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-05-31.
+2020-06-01 10:02:43,286 INFO     Classified 911 of 911 visited clips in 31.9 seconds, an average of 28.6 clips per second.
+2020-06-01 10:02:43,291 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-01.
+2020-06-01 10:02:43,292 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,294 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-02.
+2020-06-01 10:02:43,296 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,298 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-03.
+2020-06-01 10:02:43,300 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,302 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-04.
+2020-06-01 10:02:43,304 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,305 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-05.
+2020-06-01 10:02:43,307 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,308 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-06.
+2020-06-01 10:02:43,310 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,312 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-07.
+2020-06-01 10:02:43,314 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,315 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-08.
+2020-06-01 10:02:43,318 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,322 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-09.
+2020-06-01 10:02:43,323 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,348 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-10.
+2020-06-01 10:02:43,350 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,352 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-11.
+2020-06-01 10:02:43,353 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,354 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-12.
+2020-06-01 10:02:43,357 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,359 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-13.
+2020-06-01 10:02:43,362 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,364 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-14.
+2020-06-01 10:02:43,366 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,368 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-15.
+2020-06-01 10:02:43,370 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,373 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-16.
+2020-06-01 10:02:43,399 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,401 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-17.
+2020-06-01 10:02:43,402 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,405 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-18.
+2020-06-01 10:02:43,406 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,408 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-19.
+2020-06-01 10:02:43,409 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,411 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-20.
+2020-06-01 10:02:43,413 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,415 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-21.
+2020-06-01 10:02:43,416 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,419 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-22.
+2020-06-01 10:02:43,420 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,422 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-23.
+2020-06-01 10:02:43,449 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,453 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-24.
+2020-06-01 10:02:43,456 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,458 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-25.
+2020-06-01 10:02:43,460 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,463 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-26.
+2020-06-01 10:02:43,465 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,467 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-27.
+2020-06-01 10:02:43,469 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,471 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-28.
+2020-06-01 10:02:43,498 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,500 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-29.
+2020-06-01 10:02:43,503 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,505 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-06-30.
+2020-06-01 10:02:43,508 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,510 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-01.
+2020-06-01 10:02:43,512 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,514 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-02.
+2020-06-01 10:02:43,516 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,518 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-03.
+2020-06-01 10:02:43,519 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,521 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-04.
+2020-06-01 10:02:43,549 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,553 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-05.
+2020-06-01 10:02:43,554 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,558 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-06.
+2020-06-01 10:02:43,560 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,564 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-07.
+2020-06-01 10:02:43,566 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,569 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-08.
+2020-06-01 10:02:43,571 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,598 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-09.
+2020-06-01 10:02:43,601 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,603 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-10.
+2020-06-01 10:02:43,606 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,609 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-11.
+2020-06-01 10:02:43,613 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,614 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-12.
+2020-06-01 10:02:43,617 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,619 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-13.
+2020-06-01 10:02:43,620 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,622 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-14.
+2020-06-01 10:02:43,648 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,652 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-15.
+2020-06-01 10:02:43,656 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,659 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-16.
+2020-06-01 10:02:43,665 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,668 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-17.
+2020-06-01 10:02:43,670 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,674 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-18.
+2020-06-01 10:02:43,699 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,702 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-19.
+2020-06-01 10:02:43,704 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,708 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-20.
+2020-06-01 10:02:43,710 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,713 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-21.
+2020-06-01 10:02:43,714 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,717 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-22.
+2020-06-01 10:02:43,718 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,720 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-23.
+2020-06-01 10:02:43,748 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,750 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-24.
+2020-06-01 10:02:43,752 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,757 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-25.
+2020-06-01 10:02:43,760 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,764 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-26.
+2020-06-01 10:02:43,765 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,767 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-27.
+2020-06-01 10:02:43,770 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,799 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-28.
+2020-06-01 10:02:43,802 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,804 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-29.
+2020-06-01 10:02:43,806 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,808 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-30.
+2020-06-01 10:02:43,809 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,811 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-07-31.
+2020-06-01 10:02:43,814 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,815 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-01.
+2020-06-01 10:02:43,817 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,819 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-02.
+2020-06-01 10:02:43,821 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,849 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-03.
+2020-06-01 10:02:43,851 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,854 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-04.
+2020-06-01 10:02:43,856 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,858 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-05.
+2020-06-01 10:02:43,859 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,861 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-06.
+2020-06-01 10:02:43,863 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,865 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-07.
+2020-06-01 10:02:43,866 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,868 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-08.
+2020-06-01 10:02:43,870 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,899 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-09.
+2020-06-01 10:02:43,900 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,903 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-10.
+2020-06-01 10:02:43,905 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,908 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-11.
+2020-06-01 10:02:43,909 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,912 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-12.
+2020-06-01 10:02:43,913 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,915 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-13.
+2020-06-01 10:02:43,917 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,919 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-14.
+2020-06-01 10:02:43,920 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,948 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-15.
+2020-06-01 10:02:43,951 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,954 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-16.
+2020-06-01 10:02:43,956 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,959 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-17.
+2020-06-01 10:02:43,961 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,964 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-18.
+2020-06-01 10:02:43,965 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,968 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-19.
+2020-06-01 10:02:43,970 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:43,971 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-20.
+2020-06-01 10:02:43,998 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,001 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-21.
+2020-06-01 10:02:44,004 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,006 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-22.
+2020-06-01 10:02:44,008 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,011 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-23.
+2020-06-01 10:02:44,013 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,016 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-24.
+2020-06-01 10:02:44,018 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,019 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-25.
+2020-06-01 10:02:44,022 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,049 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-26.
+2020-06-01 10:02:44,051 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,054 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-27.
+2020-06-01 10:02:44,055 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,058 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-28.
+2020-06-01 10:02:44,059 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,061 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-29.
+2020-06-01 10:02:44,063 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,065 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-30.
+2020-06-01 10:02:44,066 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,068 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-08-31.
+2020-06-01 10:02:44,070 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,072 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-01.
+2020-06-01 10:02:44,099 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,102 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-02.
+2020-06-01 10:02:44,104 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,106 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-03.
+2020-06-01 10:02:44,108 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,110 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-04.
+2020-06-01 10:02:44,112 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,115 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-05.
+2020-06-01 10:02:44,116 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,118 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-06.
+2020-06-01 10:02:44,119 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,120 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-07.
+2020-06-01 10:02:44,149 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,151 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-08.
+2020-06-01 10:02:44,153 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,156 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-09.
+2020-06-01 10:02:44,157 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,161 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-10.
+2020-06-01 10:02:44,163 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,165 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-11.
+2020-06-01 10:02:44,166 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,168 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-12.
+2020-06-01 10:02:44,169 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,171 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-13.
+2020-06-01 10:02:44,198 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,201 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-14.
+2020-06-01 10:02:44,202 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,204 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-15.
+2020-06-01 10:02:44,205 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,208 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-16.
+2020-06-01 10:02:44,209 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,211 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-17.
+2020-06-01 10:02:44,212 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,214 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-18.
+2020-06-01 10:02:44,215 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,218 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-19.
+2020-06-01 10:02:44,219 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,249 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-20.
+2020-06-01 10:02:44,250 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,251 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-21.
+2020-06-01 10:02:44,254 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,256 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-22.
+2020-06-01 10:02:44,257 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,258 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-23.
+2020-06-01 10:02:44,260 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,262 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-24.
+2020-06-01 10:02:44,263 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,266 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-25.
+2020-06-01 10:02:44,267 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,268 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-26.
+2020-06-01 10:02:44,271 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,299 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-27.
+2020-06-01 10:02:44,300 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,303 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-28.
+2020-06-01 10:02:44,303 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,305 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-29.
+2020-06-01 10:02:44,308 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,310 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-09-30.
+2020-06-01 10:02:44,311 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,313 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-01.
+2020-06-01 10:02:44,314 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,317 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-02.
+2020-06-01 10:02:44,318 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,320 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-03.
+2020-06-01 10:02:44,348 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,350 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-04.
+2020-06-01 10:02:44,352 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,355 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-05.
+2020-06-01 10:02:44,357 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,359 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-06.
+2020-06-01 10:02:44,361 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,363 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-07.
+2020-06-01 10:02:44,364 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,366 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-08.
+2020-06-01 10:02:44,367 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,370 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-09.
+2020-06-01 10:02:44,397 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,400 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-10.
+2020-06-01 10:02:44,402 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,403 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-11.
+2020-06-01 10:02:44,405 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,407 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-12.
+2020-06-01 10:02:44,409 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,411 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-13.
+2020-06-01 10:02:44,413 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,414 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-14.
+2020-06-01 10:02:44,417 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,419 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-15.
+2020-06-01 10:02:44,421 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,449 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-16.
+2020-06-01 10:02:44,450 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,452 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-17.
+2020-06-01 10:02:44,455 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,457 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-18.
+2020-06-01 10:02:44,459 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,461 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-19.
+2020-06-01 10:02:44,462 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,465 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-20.
+2020-06-01 10:02:44,467 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,468 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-21.
+2020-06-01 10:02:44,470 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,472 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-22.
+2020-06-01 10:02:44,499 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,501 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-23.
+2020-06-01 10:02:44,503 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,505 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-24.
+2020-06-01 10:02:44,507 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,509 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-25.
+2020-06-01 10:02:44,510 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,512 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-26.
+2020-06-01 10:02:44,514 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,515 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-27.
+2020-06-01 10:02:44,517 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,519 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-28.
+2020-06-01 10:02:44,520 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,522 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-29.
+2020-06-01 10:02:44,550 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,553 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-30.
+2020-06-01 10:02:44,554 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,556 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-10-31.
+2020-06-01 10:02:44,558 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,560 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-01.
+2020-06-01 10:02:44,561 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,563 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-02.
+2020-06-01 10:02:44,564 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,567 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-03.
+2020-06-01 10:02:44,568 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,570 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-04.
+2020-06-01 10:02:44,599 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,603 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-05.
+2020-06-01 10:02:44,605 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,607 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-06.
+2020-06-01 10:02:44,609 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,610 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-07.
+2020-06-01 10:02:44,612 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,616 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-08.
+2020-06-01 10:02:44,618 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,619 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-09.
+2020-06-01 10:02:44,621 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,623 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-10.
+2020-06-01 10:02:44,648 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,651 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-11.
+2020-06-01 10:02:44,652 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,655 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-12.
+2020-06-01 10:02:44,656 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,658 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-13.
+2020-06-01 10:02:44,660 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,661 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-14.
+2020-06-01 10:02:44,663 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,665 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-15.
+2020-06-01 10:02:44,667 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,668 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-16.
+2020-06-01 10:02:44,670 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,698 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-17.
+2020-06-01 10:02:44,699 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,702 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-18.
+2020-06-01 10:02:44,704 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,706 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-19.
+2020-06-01 10:02:44,709 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,711 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-20.
+2020-06-01 10:02:44,712 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,714 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-21.
+2020-06-01 10:02:44,715 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,718 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-22.
+2020-06-01 10:02:44,719 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,749 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-23.
+2020-06-01 10:02:44,750 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,752 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-24.
+2020-06-01 10:02:44,754 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,755 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-25.
+2020-06-01 10:02:44,757 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,759 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-26.
+2020-06-01 10:02:44,760 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,762 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-27.
+2020-06-01 10:02:44,763 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,765 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-28.
+2020-06-01 10:02:44,767 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,769 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-29.
+2020-06-01 10:02:44,770 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,799 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-11-30.
+2020-06-01 10:02:44,800 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,801 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-01.
+2020-06-01 10:02:44,802 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,805 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-02.
+2020-06-01 10:02:44,807 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,809 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-03.
+2020-06-01 10:02:44,811 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,813 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-04.
+2020-06-01 10:02:44,815 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,816 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-05.
+2020-06-01 10:02:44,817 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,819 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-06.
+2020-06-01 10:02:44,847 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,850 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-07.
+2020-06-01 10:02:44,852 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,853 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-08.
+2020-06-01 10:02:44,855 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,857 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-09.
+2020-06-01 10:02:44,858 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,861 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-10.
+2020-06-01 10:02:44,863 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,864 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-11.
+2020-06-01 10:02:44,866 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,868 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-12.
+2020-06-01 10:02:44,870 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,871 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-13.
+2020-06-01 10:02:44,898 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,899 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-14.
+2020-06-01 10:02:44,901 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,903 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-15.
+2020-06-01 10:02:44,905 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,906 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-16.
+2020-06-01 10:02:44,908 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,909 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-17.
+2020-06-01 10:02:44,912 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,913 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-18.
+2020-06-01 10:02:44,915 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,917 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-19.
+2020-06-01 10:02:44,918 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,920 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-20.
+2020-06-01 10:02:44,948 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,950 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-21.
+2020-06-01 10:02:44,952 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,954 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-22.
+2020-06-01 10:02:44,955 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,958 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-23.
+2020-06-01 10:02:44,959 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,961 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-24.
+2020-06-01 10:02:44,962 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,964 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-25.
+2020-06-01 10:02:44,965 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,968 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-26.
+2020-06-01 10:02:44,969 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:44,971 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-27.
+2020-06-01 10:02:44,999 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:45,001 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-28.
+2020-06-01 10:02:45,002 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:45,004 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-29.
+2020-06-01 10:02:45,006 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:45,008 INFO     Classifier will visit 0 clips for detector "Old Bird Tseep Detector Redux 1.1", station "MSGR", mic output "21c Output", and date 2020-12-30.
+2020-06-01 10:02:45,010 INFO     Classified 0 of 0 visited clips in 0.0 seconds.
+2020-06-01 10:02:45,020 INFO     Job completed.
